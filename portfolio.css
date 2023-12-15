@@ -39,7 +39,6 @@ body {
 }
     @media screen and (max-width:1000px ) {
         .header {
-            margin-left: 10px;
             width: 480px;
         }
     }
@@ -393,7 +392,7 @@ social-icons a:hover::before {
     }
     @media screen and (max-width:400px ) {
         #portfolio {
-            height: 800px;
+            height: 1000px;
         }
     }
     .portfolio {
@@ -471,6 +470,7 @@ social-icons a:hover::before {
     @media screen and (max-width:400px ) {
         #hosting {
             width: 490px;
+            height: 300px;
         }
     }
     .hosting-box
