@@ -216,6 +216,11 @@
                     margin-top:10px;
                 }
             }
+            @media screen and (max-width:400px ) {
+                #home {
+                    width: 480px;
+                }
+            }
             .home {
                 height: 100%;
                 width: 100%;
@@ -226,6 +231,11 @@
             @media screen and (max-width:1000px ) {
                 .home {
                     width: 460px;
+                }
+            }
+            @media screen and (max-width:400px ) {
+                .home {
+                    width: 480px;
                 }
             }
             .home-content {
@@ -408,6 +418,11 @@
                     height:1000px;
                 }
             }
+            @media screen and (max-width:400px ) {
+                #about {
+                    width: 480px;
+                }
+            }
             .about {
                 margin-left: 50px;
                 margin-top: 50px;
@@ -554,6 +569,11 @@
                 height:870px;
             }
         }
+            @media screen and (max-width:400px ) {
+                #skills {
+                    width: 480px;
+                }
+            }
             .skills {
                 margin-left: 50px;
             }
@@ -768,6 +788,11 @@
                 height:1040px;
             }
         }
+            @media screen and (max-width:400px ) {
+                #contacts {
+                    width: 480px;
+                }
+            }
             .contacts {
                 margin-left: 80px;
             }
