@@ -501,7 +501,7 @@ social-icons a:hover::before {
 @media screen and (max-width:400px ) {
     .hosting-progress {
         margin-top: 0px;
-        width: 210px;
+        width: 220px;
     }
 
     .hosting h1 {
