@@ -468,7 +468,12 @@
                 margin-left: 0px;
             }
         }
-
+        @media screen and (max-width:400px ) {
+            .about-box  {
+                margin-top: 460px;
+                margin-left: 0px;
+            }
+        }
 
 
 
