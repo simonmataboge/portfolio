@@ -469,7 +469,7 @@ social-icons a:hover::before {
     @media screen and (max-width:400px ) {
         #hosting {
             width: 490px;
-            height: 300px;
+            height: 400px;
         }
     }
     .hosting-box
@@ -498,6 +498,12 @@ social-icons a:hover::before {
         margin-top: 0px;
     }
 }
+@media screen and (max-width:400px ) {
+    .hosting-progress {
+        margin-top: 0px;
+        width: 210px;
+    }
+
     .hosting h1 {
         color: var(--hover-color);
         margin-left: 60px;
