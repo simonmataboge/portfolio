@@ -441,7 +441,7 @@
             }
             @media screen and (max-width:400px ) {
                 #about {
-                    width: 480px;
+                    width: 490px;
                 }
             }
             .about {
@@ -597,7 +597,7 @@
         }
             @media screen and (max-width:400px ) {
                 #skills {
-                    width: 480px;
+                    width: 490px;
                 }
             }
             .skills {
@@ -816,7 +816,7 @@
         }
             @media screen and (max-width:400px ) {
                 #contacts {
-                    width: 480px;
+                    width: 490px;
                 }
             }
             .contacts {
