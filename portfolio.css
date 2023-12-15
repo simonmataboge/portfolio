@@ -38,13 +38,13 @@ body {
     margin-top: 10px;
 }
     @media screen and (max-width:1000px ) {
-        .portfolio {
+        .header {
             margin-left: 10px;
             width: 480px;
         }
     }
     @media screen and (max-width:400px ) {
-        .portfolio {
+        .header {
             width: 490px;
         }
     }
@@ -391,7 +391,11 @@ social-icons a:hover::before {
             height: 1000px;
         }
     }
-
+    @media screen and (max-width:400px ) {
+        #portfolio {
+            height: 800px;
+        }
+    }
     .portfolio {
         margin-left: 20px;
     }
@@ -404,7 +408,7 @@ social-icons a:hover::before {
     }
     @media screen and (max-width:400px ) {
         .portfolio {
-            margin-left: 10px;
+            margin-left: 20px;
             width: 480px;
         }
     }
