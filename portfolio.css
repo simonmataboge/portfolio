@@ -37,7 +37,17 @@ body {
     box-shadow: 0 0 1rem #12f7ff;
     margin-top: 10px;
 }
-
+    @media screen and (max-width:1000px ) {
+        .portfolio {
+            margin-left: 10px;
+            width: 480px;
+        }
+    }
+    @media screen and (max-width:400px ) {
+        .portfolio {
+            width: 490px;
+        }
+    }
     .header li {
         padding: 10px 5%;
     }
@@ -47,7 +57,18 @@ body {
     font-weight: 700;
     letter-spacing: 1px;
 }
-
+    @media screen and (max-width:1000px ) {
+        .logo {
+            margin-left: 160px;
+            width: 480px;
+        }
+    }
+    @media screen and (max-width:400px ) {
+        .logo {
+            margin-left: 160px;
+           
+        }
+    }
 span {
     color: var(--hover-color);
     font-size: 20px;
@@ -381,7 +402,12 @@ social-icons a:hover::before {
             width: 480px;
         }
     }
-
+    @media screen and (max-width:400px ) {
+        .portfolio {
+            margin-left: 10px;
+            width: 480px;
+        }
+    }
     .portfolio-box {
         width: 260px;
         height: 280px;
@@ -436,6 +462,11 @@ social-icons a:hover::before {
     @media screen and (max-width:1000px ) {
         #hosting {
             height:540px;
+        }
+    }
+    @media screen and (max-width:400px ) {
+        #hosting {
+            width: 490px;
         }
     }
     .hosting-box
