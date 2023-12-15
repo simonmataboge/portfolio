@@ -406,7 +406,7 @@ social-icons a:hover::before {
     }
     @media screen and (max-width:400px ) {
         .portfolio {
-            margin-left: 15px;
+            margin-left: 10px;
             width: 480px;
         }
     }
