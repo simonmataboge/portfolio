@@ -36,7 +36,18 @@
             box-shadow: 0 0 1rem #12f7ff;
             margin-top:10px;
         }
-
+            @media screen and (max-width:1000px ) {
+                .header {
+                    width:460px;
+                    margin-left:0px;
+                    margin-top:10px;
+                }
+            }
+            @media screen and (max-width:400px ) {
+                .header {
+                    width: 480px;
+                }
+            }
             .header li {
                 padding: 10px 5%;
             }
