@@ -406,7 +406,7 @@ social-icons a:hover::before {
     }
     @media screen and (max-width:400px ) {
         .portfolio {
-            margin-left: 20px;
+            margin-left: 15px;
             width: 480px;
         }
     }
@@ -502,6 +502,7 @@ social-icons a:hover::before {
     .hosting-progress {
         margin-top: 0px;
         width: 220px;
+        margin-left: 15px;
     }
 
     .hosting h1 {
