@@ -581,7 +581,11 @@ h4 {
     align-items: center;
     grid-gap: 4em;
 }
-
+@media screen and (max-width:400px ) {
+    .about-more h4 {
+        text-align: center;
+    }
+}
 .more-skills {
     width: 440px;
     margin-top: 50px;
