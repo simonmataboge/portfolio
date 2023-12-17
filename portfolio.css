@@ -455,7 +455,7 @@ social-icons a:hover::before {
     }
     @media screen and (max-width:400px ) {
         #hosting {
-            width:480px;
+            width:490px;
         }
     }
     .hosting-box
