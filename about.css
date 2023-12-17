@@ -353,7 +353,7 @@ span {
 @media screen and (max-width:400px ) {
     #about {
         width: 490px;
-        height: 620px;
+        height: 680px;
     }
 }
 .about {
