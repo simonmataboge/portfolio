@@ -580,7 +580,7 @@ social-icons a:hover::before {
 
     @media screen and (max-width:400px ) {
         #footer {
-            margin-top: 20px;
+            margin-top: 120px;
             width: 490px;
         }
     }
