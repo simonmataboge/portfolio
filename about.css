@@ -353,7 +353,7 @@ span {
 @media screen and (max-width:400px ) {
     #about {
         width: 490px;
-        height: 520px;
+        height: 620px;
     }
 }
 .about {
@@ -515,13 +515,7 @@ h4 {
     }
 }
 
-#more-about {
-    margin-top: 50px;
-}
 
-.more-about {
-    margin-left: 40px;
-}
 
     .more-about .img-box {
         margin-left: 60px;
@@ -565,7 +559,7 @@ h4 {
 #about-more {
     padding: 10px;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 40px;
     height: 600px;
 }
 
