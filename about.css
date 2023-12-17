@@ -584,6 +584,7 @@ h4 {
 @media screen and (max-width:400px ) {
     .about-more h4 {
         text-align: center;
+         margin-left: 50px;
     }
 }
 .more-skills {
