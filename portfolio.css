@@ -453,6 +453,11 @@ social-icons a:hover::before {
             height:540px;
         }
     }
+    @media screen and (max-width:400px ) {
+        #hosting {
+            width:480px;
+        }
+    }
     .hosting-box
     {
         margin-left:30px;
