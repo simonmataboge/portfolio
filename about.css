@@ -564,7 +564,7 @@ h4 {
 #about-more {
     padding: 10px;
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
     height: 500px;
 }
 
@@ -574,7 +574,12 @@ h4 {
         height: 750px;
     }
 }
-
+@media screen and (max-width:400px ) {
+    #about-more {
+        margin-left: 10px;
+        height: 1000px;
+    }
+}
 .about-more {
     height: 100%;
     width: 100%;
