@@ -463,6 +463,13 @@ social-icons a:hover::before {
             margin-top:40px;
         }
     }
+    @media screen and (max-width:400px ) {
+        .hosting-box {
+            margin-left: 0px;
+            margin-top:40px;
+            width:480px;
+        }
+    }
     .hosting-progress {
         width: 200px;
         padding: 10px;
