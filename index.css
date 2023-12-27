@@ -438,14 +438,14 @@
 }
 @media screen and (max-width:1000px ) {
 	 .design .circle{
-		margin-top: 340px;
-		margin-left: -34%;
+		margin-top: 400px;
+		margin-left: -10%;
 	}
 }
 @media screen and (max-width:400px ) {
 	 .design .circle{
 		margin-top: 240px;
-		margin-left: -14%;
+		margin-left: -10%;
 	}
 }
 .circle:nth-child(1){
@@ -637,7 +637,7 @@
         }
             @media screen and (max-width:400px ) {
                 #skills {
-                    width: 480px;
+                    width: 490px;
                 }
             }
             .skills {
@@ -841,7 +841,7 @@
         }
             .portfolio-box h5 {
                 color: var(--hover-color);
-                text-align: center;
+                text-align: ;
                 margin-top: 10px;
             }
 
@@ -850,7 +850,7 @@
                 }
 
             .portfolio p {
-                text-align: center;
+                text-align: ;
                 color: var(--secon-bg-color);
                 padding: 10px;
             }
@@ -946,13 +946,13 @@
 
             @media screen and (max-width:1000px ) {
                 #footer {
-                    margin-top: 0px;
+                    margin-top: 10px;
                 }
             }
 
             @media screen and (max-width:400px ) {
                 #footer {
-                    margin-top: 0px;
+                    margin-top: 10px;
                     width: 490px;
                 }
             }
