@@ -36,11 +36,7 @@
             box-shadow: 0 0 1rem #12f7ff;
             margin-top:10px;
         }
-        @media screen and (max-width:400px ) {
-            .header {
-                width: 490px;
-            }
-        }
+
             .header li {
                 padding: 10px 5%;
             }
@@ -163,6 +159,26 @@
                 0 0 100px rgba(18,247,255,0.6), 
                 0 0 150px rgba(18,247,255,0.6);
         }
+.sidepanel a::after{
+    content:"";
+    position:absolute;
+    background:#12f7ff;
+    width:50%;
+    height:.2rem;
+    left:30px;
+    bottom:5px;
+    transform:scaleX(0);
+    transform-origin:bottom right;
+    transition:transform .5s;
+    
+
+}
+.sidepanel a:hover::after {
+    transform:scaleX(1);
+    transform-origin:bottom left;
+
+}
+
  
         .sidepanel .closebtn {
             position: absolute;
@@ -355,6 +371,24 @@
                         .buy-btn a:hover::before {
                             width: 0;
                         }
+.buy-btn:hover, .buy-btn:focus, .buy-btn:active, .buy-btn:visited{
+    transition-timing-function:cubic-bezier(0,6,4,0,3,0,8);
+    animation:animate 0.5s 1;
+}
+@keyframes animate{
+    0%, 100%{
+        transform:scale(1.1);
+    }
+    25% {
+        transform: scale(0.9, 1.1);
+    }
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+    75% {
+        transform: scale(0.95, 1.05);
+    }
+}
 
             .social-icons {
                 margin-top: 20px;
@@ -379,6 +413,24 @@
                     z-index: 1;
                     overflow: hidden;
                 }
+.social-icons a:hover, .social-icons a:focus, .social-icons a:active, .social-icons a:visited{
+    transition-timing-function:cubic-bezier(0,6,4,0,3,0,8);
+    animation:animate 0.5s 1;
+}
+@keyframes animate{
+    0%, 100%{
+        transform:scale(1.1);
+    }
+    25% {
+        transform: scale(0.9, 1.1);
+    }
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+    75% {
+        transform: scale(0.95, 1.05);
+    }
+}
 
                     .social-icons a i {
                         font-size: 20px;
@@ -438,14 +490,8 @@
 }
 @media screen and (max-width:1000px ) {
 	 .design .circle{
-		margin-top: 400px;
-		margin-left: -30%;
-	}
-}
-@media screen and (max-width:400px ) {
-	 .design .circle{
-		margin-top: 240px;
-		margin-left: -10%;
+		margin-top: 440px;
+		margin-left: -34%;
 	}
 }
 .circle:nth-child(1){
@@ -471,10 +517,27 @@
 	margin-left: 50px;
 	
 }
-
+ img:hover,  img:focus,  img:active, img:visited{
+    transition-timing-function:cubic-bezier(0,6,4,0,3,0,8);
+    animation:animate 0.5s 1;
+}
+@keyframes animate{
+    0%, 100%{
+        transform:scale(1.1);
+    }
+    25% {
+        transform: scale(0.9, 1.1);
+    }
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+    75% {
+        transform: scale(0.95, 1.05);
+    }
+}
 
             #about {
-                background: var(--bg-color);
+                background: var(--secon-bg-color);
                 padding: 10px;
                 margin-top: 100px;
                 height: 500px;
@@ -486,7 +549,7 @@
             }
             @media screen and (max-width:400px ) {
                 #about {
-                    width: 490px;
+                    width: 480px;
                 }
             }
             .about {
@@ -540,11 +603,6 @@
                 margin-left: 50px;
             }
         @media screen and (max-width:1000px ) {
-            .services {
-                margin-left:0px;
-            }
-        }
-        @media screen and (max-width:400px ) {
             .services {
                 margin-left:0px;
             }
@@ -606,7 +664,24 @@
                     .single-service .fa:hover {
                         background: var(--bg-color);
                     }
-
+.fa:hover, .fa:focus, .fa:active, .fa:visited{
+    transition-timing-function:cubic-bezier(0,6,4,0,3,0,8);
+    animation:animate 0.5s 1;
+}
+@keyframes animate{
+    0%, 100%{
+        transform:scale(1.1);
+    }
+    25% {
+        transform: scale(0.9, 1.1);
+    }
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+    75% {
+        transform: scale(0.95, 1.05);
+    }
+}
                         .single-service .fa:hover::before {
                             width: 0;
                         }
@@ -630,7 +705,7 @@
                     }
 
             #skills {
-                background: var(--bg-color);
+                background: var(--secon-bg-color);
                 padding: 10px;
                 margin-top: 10px;
                 height: 500px;
@@ -642,7 +717,7 @@
         }
             @media screen and (max-width:400px ) {
                 #skills {
-                    width: 490px;
+                    width: 480px;
                 }
             }
             .skills {
@@ -798,18 +873,7 @@
             .portfolio {
                 margin-left: 80px;
             }
-        @media screen and (max-width:1000px ) {
-            .portfolio {
-                width:490px;
-		margin-left: 0px;
-            }
-        }
-        @media screen and (max-width:400px ) {
-            .portfolio {
-                width:490px;
-		margin-left: 0px;
-            }
-        }
+
             .portfolio-box {
                 width: 205px;
                 height: 280px;
@@ -821,10 +885,8 @@
             .portfolio-box {
                 margin-top: 30px;
                 width:370px;
-		margin-left: 60px;
             }
         }
-
             .portfolio-img img {
                 height: 170px;
                 width: 180px;
@@ -847,7 +909,7 @@
         }
             .portfolio-box h5 {
                 color: var(--hover-color);
-                text-align:center ;
+                text-align: center;
                 margin-top: 10px;
             }
 
@@ -856,7 +918,7 @@
                 }
 
             .portfolio p {
-                text-align:center ;
+                text-align: center;
                 color: var(--secon-bg-color);
                 padding: 10px;
             }
@@ -873,7 +935,7 @@
         }
             @media screen and (max-width:400px ) {
                 #contacts {
-                    width: 490px;
+                    width: 480px;
                 }
             }
             .contacts {
@@ -952,13 +1014,13 @@
 
             @media screen and (max-width:1000px ) {
                 #footer {
-                    margin-top: 10px;
+                    margin-top: 20px;
                 }
             }
 
             @media screen and (max-width:400px ) {
                 #footer {
-                    margin-top: 10px;
+                    margin-top: 120px;
                     width: 490px;
                 }
             }
