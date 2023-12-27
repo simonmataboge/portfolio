@@ -794,7 +794,13 @@
                 margin-left: 80px;
             }
         @media screen and (max-width:1000px ) {
-            .portfolio-box {
+            .portfolio {
+                width:490px;
+		margin-left: 0px;
+            }
+        }
+        @media screen and (max-width:400px ) {
+            .portfolio {
                 width:490px;
 		margin-left: 0px;
             }
