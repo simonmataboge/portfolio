@@ -791,7 +791,7 @@
             }
         }
             .portfolio {
-                margin-left: 80px;
+                margin-left: 80px;background: var(--bg-color);
             }
         @media screen and (max-width:1000px ) {
             .portfolio {
@@ -841,7 +841,7 @@
         }
             .portfolio-box h5 {
                 color: var(--hover-color);
-                text-align: ;
+                text-align:center ;
                 margin-top: 10px;
             }
 
@@ -850,7 +850,7 @@
                 }
 
             .portfolio p {
-                text-align: ;
+                text-align:center ;
                 color: var(--secon-bg-color);
                 padding: 10px;
             }
