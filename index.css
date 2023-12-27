@@ -474,7 +474,7 @@
 
 
             #about {
-                background: var(--secon-bg-color);
+                background: var(--bg-color);
                 padding: 10px;
                 margin-top: 100px;
                 height: 500px;
@@ -625,7 +625,7 @@
                     }
 
             #skills {
-                background: var(--secon-bg-color);
+                background: var(--bg-color);
                 padding: 10px;
                 margin-top: 10px;
                 height: 500px;
@@ -791,20 +791,9 @@
             }
         }
             .portfolio {
-                margin-left: 80px;background: var(--bg-color);
+                margin-left: 80px;
             }
-        @media screen and (max-width:1000px ) {
-            .portfolio {
-		    margin-left: 0px;
-                width:490px;
-            }
-        }
-        @media screen and (max-width:400px ) {
-            .portfolio {
-		    margin-left: 0px;
-                width:490px;
-            }
-        }
+
             .portfolio-box {
                 width: 205px;
                 height: 280px;
@@ -816,6 +805,7 @@
             .portfolio-box {
                 margin-top: 30px;
                 width:370px;
+		margin-left: 40px;
             }
         }
 
