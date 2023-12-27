@@ -439,7 +439,7 @@
 @media screen and (max-width:1000px ) {
 	 .design .circle{
 		margin-top: 400px;
-		margin-left: -10%;
+		margin-left: -30%;
 	}
 }
 @media screen and (max-width:400px ) {
@@ -795,13 +795,13 @@
             }
         @media screen and (max-width:1000px ) {
             .portfolio {
-		    margin-left: 50px;
+		    margin-left: 0px;
                 width:490px;
             }
         }
         @media screen and (max-width:400px ) {
             .portfolio {
-		    margin-left: 50px;
+		    margin-left: 0px;
                 width:490px;
             }
         }
