@@ -793,7 +793,12 @@
             .portfolio {
                 margin-left: 80px;
             }
-
+        @media screen and (max-width:1000px ) {
+            .portfolio-box {
+                width:490px;
+		margin-left: 0px;
+            }
+        }
             .portfolio-box {
                 width: 205px;
                 height: 280px;
