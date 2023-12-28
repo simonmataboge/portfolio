@@ -612,7 +612,7 @@
 
             #services {
                 margin-top: 50px;
-                height: 550px;
+                height: 550px;background: var(--bg-color);
             }
         @media screen and (max-width:1000px ) {
             #services {
@@ -629,7 +629,8 @@
         }
         @media screen and (max-width:400px ) {
             .services {
-                margin-left:80px;
+                margin-left:0px;
+		width:490px;
             }
         }
             .services-box {
@@ -642,7 +643,7 @@
         }
         @media screen and (max-width:400px ) {
             .services-box {
-                margin-left:0px;
+                margin-left:80px;
             }
         }
 
