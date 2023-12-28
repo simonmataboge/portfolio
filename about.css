@@ -783,9 +783,9 @@ h4 {
 
 .copyright {
     padding: 10px;
-    background: var(--bg-color);
+    background:red;
     color: var(--hover-color);
-    margin-top: 200px;
+    margin-top: 1px;
 }
 
     .copyright p {
