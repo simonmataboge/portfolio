@@ -501,7 +501,7 @@
 @media screen and (max-width:400px ) {
 	 .design .circle{
 		margin-top: 260px;
-		margin-left: -14%;
+		margin-left: -4%;
 	}
 }
 .circle:nth-child(1){
@@ -619,7 +619,7 @@
         }
         @media screen and (max-width:400px ) {
             .services {
-                margin-left:0px;
+                margin-left:50px;
             }
         }
             .services-box {
@@ -743,7 +743,7 @@
         }
             @media screen and (max-width:400px ) {
                 #skills {
-                    width: 480px;
+                    width: 490px;
                 }
             }
             .skills {
@@ -928,7 +928,7 @@
         @media screen and (max-width:400px ) {
             .portfolio-box {
                 margin-top: 30px;
-				margin-left: 40px;
+				margin-left: 60px;
                 width:370px;
             }
         }
@@ -1059,13 +1059,13 @@
 
             @media screen and (max-width:1000px ) {
                 #footer {
-                    margin-top: 20px;
+                    margin-top: 1px;
                 }
             }
 
             @media screen and (max-width:400px ) {
                 #footer {
-                    margin-top: 120px;
+                    margin-top: 1px;
                     width: 490px;
                 }
             }
