@@ -682,141 +682,139 @@ h4 {
     }
 }
 
-#footer {
-    background: var(--bg-color);
-    margin-top: 1px;
-}
 
-@media screen and (max-width:1000px ) {
-    #footer {
-        margin-top: 20px;
-    }
-}
+            #footer {
+                background: var(--bg-color);
+                margin-top: 1px;
+            }
 
-@media screen and (max-width:400px ) {
-    #footer {
-        margin-top: 120px;
-        width: 490px;
-    }
-}
+            @media screen and (max-width:1000px ) {
+                #footer {
+                    margin-top: 1px;
+                }
+            }
 
-.footer {
-    margin-top: 10px;
-    color: white;
-    width: 100%;
-    padding: 10px;
-}
+            @media screen and (max-width:400px ) {
+                #footer {
+                    margin-top: 1px;
+                    width: 490px;
+                }
+            }
 
-.footer {
-    display: inline-block !important;
-}
+            .footer {
+                margin-top: 10px;
+                color: white;
+                width: 100%;
+                padding: 10px;
+            }
 
-@media screen and (max-width:1000px ) {
-    .footer {
-        display:;
-        margin-left: 10px;
-    }
-}
+            .footer {
+                display: inline-block !important;
+            }
 
-@media screen and (max-width:400px ) {
-    .footer {
-        width: 480px;
-    }
-}
+            @media screen and (max-width:1000px ) {
+                .footer {
+                    display:;
+                    margin-left: 10px;
+                }
+            }
 
-.footer-content {
-    display: inline-block;
-    margin-left: 0px;
-    width: 235px;
-}
+            @media screen and (max-width:400px ) {
+                .footer {
+                    width: 480px;
+                }
+            }
 
-@media screen and (max-width:1000px ) {
-    .footer-content {
-        margin-left: 10px;
-        margin-top: 10px;
-        width: 200px;
-    }
-}
+            .footer-content {
+                display: inline-block;
+                margin-left: 0px;
+                width: 235px;
+            }
 
-@media screen and (max-width:400px ) {
-    footer-content {
-        margin-left: 0px;
-        margin-top: 10px;
-        width: 200px;
-    }
-}
+            @media screen and (max-width:1000px ) {
+                .footer-content {
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    width: 200px;
+                }
+            }
 
-.footer h6 {
-    border: 2px solid var(--hover-color);
-    box-shadow: 0 0 0.9rem #12f7ff;
-    padding: 5px;
-    margin-left: 10px;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
+            @media screen and (max-width:400px ) {
+                footer-content {
+                    margin-left: 0px;
+                    margin-top: 10px;
+                    width: 200px;
+                }
+            }
 
-.footer a {
-    color: var(--hover-color);
-    text-decoration: none;
-}
+            .footer h6 {
+                border: 2px solid var(--hover-color);
+                box-shadow: 0 0 0.9rem #12f7ff;
+                padding: 5px;
+                margin-left: 10px;
+                color: white;
+                text-align: center;
+                padding: 10px;
+            }
 
-    .footer a:hover {
-        color: white;
-        text-decoration: none;
-        text-shadow: 0 0 10px rgba(18,247,255,0.6), 0 0 20px rgba(118,247,255,0.6), 0 0 30px rgba(18,247,255,0.6), 0 0 40px rgba(18,247,255,0.6), 0 0 70px rgba(18,247,255,0.6), 0 0 80px rgba(18,247,255,0.6), 0 0 100px rgba(18,247,255,0.6), 0 0 150px rgba(18,247,255,0.6);
-    }
+            .footer a {
+                color: var(--hover-color);
+                text-decoration: none;
+            }
 
-.footer h5 {
-    margin-left: 30px;
-    font-weight: lighter;
-    font-size: 16px;
-    padding: 5px;
-    color: var(--hover-color);
-}
+                .footer a:hover {
+                    color: white;
+                    text-decoration: none;
+                    text-shadow: 0 0 10px rgba(18,247,255,0.6), 0 0 20px rgba(118,247,255,0.6), 0 0 30px rgba(18,247,255,0.6), 0 0 40px rgba(18,247,255,0.6), 0 0 70px rgba(18,247,255,0.6), 0 0 80px rgba(18,247,255,0.6), 0 0 100px rgba(18,247,255,0.6), 0 0 150px rgba(18,247,255,0.6);
+                }
 
-@media screen and (max-width:1000px ) {
-    .footer h5 {
-        margin-left: 10px;
-    }
-}
+            .footer h5 {
+                margin-left: 30px;
+                font-weight: lighter;
+                font-size: 16px;
+                padding: 5px;
+                color: var(--hover-color);
+            }
+        @media screen and (max-width:1000px ) {
+            .footer h5 {
+                margin-left:10px;
+            }
+        }
+            .copyright {
+                padding: 10px;
+                background: var(--bg-color);
+                color: var(--hover-color);
+                margin-top: 1px;
+            }
 
-.copyright {
-    padding: 10px;
-    background:red;
-    color: var(--hover-color);
-    margin-top: 100px;
-}
+                .copyright p {
+                    padding: 10px;
+                    margin-left: 20px;
+                    margin-top: -40px;
+                }
 
-    .copyright p {
-        padding: 10px;
-        margin-left: 20px;
-        margin-top: -40px;
-    }
+            @media screen and (max-width:1000px ) {
+                .copyright p {
+                    margin-top: -10px;
+                    margin-left: 30px;
+                    text-align: center;
+                }
+            }
 
-@media screen and (max-width:1000px ) {
-    .copyright p {
-        margin-top: -10px;
-        margin-left: 30px;
-        text-align: center;
-    }
-}
+            @media screen and (max-width:400px ) {
+                .copyright p {
+                    font-size: 13px;
+                    text-align: left;
+                    margin-left: 10px;
+                }
+            }
 
-@media screen and (max-width:400px ) {
-    .copyright p {
-        font-size: 13px;
-        text-align: left;
-        margin-left: 10px;
-    }
-}
-
-@media screen and (max-width:400px ) {
-    .copyright {
-        width: 490px;
-    }
-}
-
-}
+            @media screen and (max-width:400px ) {
+                .copyright {
+                    width: 490px;
+                }
+            }
+        }
 
 .scroll-scale {
     opacity: 0;
