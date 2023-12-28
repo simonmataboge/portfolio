@@ -906,3 +906,21 @@ social-icons a:hover::before {
         transform: scale(0.95, 1.05);
     }
 }
+.fa:hover, .fa:focus, .fa:active, .fa:visited{
+    transition-timing-function:cubic-bezier(0,6,4,0,3,0,8);
+    animation:animate 0.5s 1;
+}
+@keyframes animate{
+    0%, 100%{
+        transform:scale(1.1);
+    }
+    25% {
+        transform: scale(0.9, 1.1);
+    }
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+    75% {
+        transform: scale(0.95, 1.05);
+    }
+}
