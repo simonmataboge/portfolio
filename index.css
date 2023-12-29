@@ -710,7 +710,7 @@
 
             #services {
                 margin-top: 100px;
-                height: 300px;
+                height: 400px;
             }
         @media screen and (max-width:1000px ) {
             #services {
@@ -1173,6 +1173,24 @@
                 margin-left: 90px;
             }
         }
+#portfolio img:hover, #portfolio img:focus, #portfolio img:active, #portfolio img:visited{
+    transition-timing-function:cubic-bezier(0,6,4,0,3,0,8);
+    animation:animate 0.5s 1;
+}
+@keyframes animate{
+    0%, 100%{
+        transform:scale(1.1);
+    }
+    25% {
+        transform: scale(0.9, 1.1);
+    }
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+    75% {
+        transform: scale(0.95, 1.05);
+    }
+}
             .portfolio-box .buy-btn {
                 width: 190px;
                 margin-left: 0px;
