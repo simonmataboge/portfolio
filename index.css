@@ -567,6 +567,11 @@
 		margin-left: 350px;
 	}
 }
+@media screen and (max-width:400px ) {
+	 .home-circle{
+		margin-top: -50px;
+	}
+}
 @media screen and (max-width:1000px ) {
 @keyframes slideLeft{
 	0%{
@@ -887,8 +892,8 @@
         @media screen and (max-width:400px ) {
             .process-box {
                 margin-top: 30px;
-				margin-left: 60px;
-                width:370px;
+				margin-left: 10px;
+                width:220px;
             }
         }
                 .process .fa 
