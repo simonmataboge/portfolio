@@ -145,7 +145,7 @@ span {
 	z-index: 1;
 	height: 350px;
 	top: 100px;
-	left: 30px;
+	left: 35px;
 	background-color: var(--bg-color);
 	overflow-x: hidden;
 	transition: 0.5s;
