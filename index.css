@@ -149,7 +149,7 @@ span {
 	background-color: var(--bg-color);
 	overflow-x: hidden;
 	transition: 0.5s;
-	padding-top: 30px;
+	padding-top: 40px;
 	border-radius: 10px;
 	text-decoration:none;
 	list-style:none;
