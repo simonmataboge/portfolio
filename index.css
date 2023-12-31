@@ -144,7 +144,7 @@ span {
 	position: fixed;
 	z-index: 1;
 	height: 360px;
-	top: 90px;
+	top: 120px;
 	left: 20px;
 	background-color: var(--bg-color);
 	overflow-x: hidden;
@@ -153,6 +153,7 @@ span {
 	border-radius: 10px;
 	text-decoration:none;
 	list-style:none;
+	text-shadow: 0 0 10px rgba(18,247,255,0.6), 0 0 20px rgba(118,247,255,0.6), 0 0 30px rgba(18,247,255,0.6), 0 0 40px rgba(18,247,255,0.6), 0 0 70px rgba(18,247,255,0.6), 0 0 80px rgba(18,247,255,0.6), 0 0 100px rgba(18,247,255,0.6), 0 0 150px rgba(18,247,255,0.6);
 }
 
 
