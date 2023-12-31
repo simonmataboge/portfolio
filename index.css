@@ -159,7 +159,7 @@ span {
 
 .sidepanel a {
 	display: block;
-	padding: 8px 8px 10px 26px;
+	padding: 0px 0px 0px 26px;
 	color: white;
 	box-sizing: border-box;
 	list-style: none;
@@ -188,7 +188,7 @@ span {
     width:15%;
     height:.2rem;
     left:26px;
-    bottom:5px;
+    bottom:-5px;
     transform:scaleX(0);
     transform-origin:bottom right;
     transition:transform .5s;
