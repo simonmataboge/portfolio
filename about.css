@@ -413,13 +413,13 @@ span {
 
 @media screen and (max-width:1000px ) {
     #about {
-        height: 620px;
+        height:1000px;
     }
 }
 @media screen and (max-width:400px ) {
     #about {
         width: 490px;
-        height: 780px;
+        height:1000px;
     }
 }
 .about {
