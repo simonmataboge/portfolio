@@ -256,13 +256,13 @@ span {
 @media screen and (max-width:1000px ) {
     #home {
         margin-left: 10px;
-	    height:1000px;
+	   
     }
 }
 @media screen and (max-width:400px ) {
     #home {
         margin-left: 10px;
-	    height:1000px;
+	
     }
 }
 .home {
