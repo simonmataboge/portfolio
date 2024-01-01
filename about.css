@@ -276,7 +276,12 @@ span {
     width: 400px;
     display: inline-block;
 }
-
+@media screen and (max-width:1000px ) {
+   .home-content {
+        margin-left: 20px;
+	   
+    }
+}
     .home-content h1 {
         font-size: var(--big-font);
         font-weight: 700;
@@ -420,13 +425,14 @@ span {
 @media screen and (max-width:1000px ) {
     #about {
         height:620px;
-	    margin-top: 300px;
+	    margin-top: 400px;
     }
 }
 @media screen and (max-width:400px ) {
     #about {
         width: 490px;
         height:680px;
+	     margin-top: 300px;
     }
 }
 .about {
