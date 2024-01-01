@@ -256,6 +256,7 @@ span {
 @media screen and (max-width:1000px ) {
     #home {
         margin-left: 10px;
+	    height:1000px;
     }
 }
 
@@ -413,13 +414,13 @@ span {
 
 @media screen and (max-width:1000px ) {
     #about {
-        height:1000px;
+        height:620px;
     }
 }
 @media screen and (max-width:400px ) {
     #about {
         width: 490px;
-        height:1000px;
+        height:680px;
     }
 }
 .about {
