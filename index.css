@@ -814,7 +814,7 @@ width:490px;
 }
 .process-container
 {
-	margin-left: 60px;background-color: red;
+	margin-left: 60px;
 	
 }
 @media screen and (max-width:1000px ) {
@@ -828,7 +828,6 @@ width:490px;
     .process-container {
         margin-left: 20px;
         width: 450px;
-		background-color: red;
         margin-top:0px;
     }
 }
@@ -881,7 +880,6 @@ width:490px;
     .process-box {
         margin-left: 0px;
 		margin-top: 0px;
-		width:400px;
     }
 }
 
