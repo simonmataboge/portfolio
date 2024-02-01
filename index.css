@@ -850,7 +850,7 @@ width:490px;
 @media screen and (max-width:400px ) {
     .process {
         margin-left: 20px;
-        width: 200px;
+        width: 400px;
         text-align: center;
         margin-top: 10px;
 
@@ -881,6 +881,7 @@ width:490px;
     .process-box {
         margin-left: 0px;
 		margin-top: 0px;
+		width:400px;
     }
 }
 
