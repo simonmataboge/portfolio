@@ -814,7 +814,7 @@ width:490px;
 }
 .process-container
 {
-	margin-left: 60px;
+	margin-left: 60px;background-color: red;
 	
 }
 @media screen and (max-width:1000px ) {
