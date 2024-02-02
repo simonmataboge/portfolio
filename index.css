@@ -797,7 +797,7 @@ width:490px;
 #process 
 {
     margin-top: 60px;
-    height: 500px;background-color: pink;
+    height: 500px;
 }
 
 @media screen and (max-width:1000px ) {
@@ -809,7 +809,7 @@ width:490px;
 @media screen and (max-width:400px ) {
     #process {
         width: 480px;
-        height: 1200px;
+        height: 1300px;
     }
 }
 .process-container
