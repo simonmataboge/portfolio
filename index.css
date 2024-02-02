@@ -880,7 +880,7 @@ width:490px;
 @media screen and (max-width:400px ) {
     .process-box {
         margin-left: 0px;
-		margin-top: 0px;
+		margin-top: -20px;
 		width:400px;
 		height:200px;
     }
