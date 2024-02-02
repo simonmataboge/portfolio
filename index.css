@@ -882,7 +882,7 @@ width:490px;
         margin-left: 0px;
 		margin-top: 0px;
 		width:400px;
-		height:220px;
+		height:210px;
     }
 }
 
@@ -964,7 +964,7 @@ border: 2px solid var(--hover-color);
 #skills {
 	background: var(--bg-color);
 	padding: 10px;
-	margin-top: 10px;
+	margin-top: 210px;
 	height: 500px;
 }
 @media screen and (max-width:1000px ) {
