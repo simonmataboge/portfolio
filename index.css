@@ -36,6 +36,7 @@ body {
 	box-shadow: 0 0 1rem #12f7ff;
 	margin-top:10px;
 }
+
 @media screen and (max-width:400px ) {
 	.header {
 		width: 490px;
@@ -490,6 +491,7 @@ span {
 
 
 
+
 .design .circle{
     aspect-ratio: 1;
     position:absolute;
@@ -715,6 +717,10 @@ width:490px;
 	padding: 10px;
 	font-weight: 900;
 }
+.single-service h6:hover {
+    text-shadow: 0 0 10px rgba(18,247,255,0.6), 0 0 20px rgba(118,247,255,0.6), 0 0 30px rgba(18,247,255,0.6), 0 0 40px rgba(18,247,255,0.6), 0 0 70px rgba(18,247,255,0.6), 0 0 80px rgba(18,247,255,0.6), 0 0 100px rgba(18,247,255,0.6), 0 0 150px rgba(18,247,255,0.6);
+    color: #0cbef5;
+}
 @media screen and (max-width:1000px ) {
 	.single-service h6 {
 		margin-left:50px;
@@ -809,13 +815,12 @@ width:490px;
 @media screen and (max-width:400px ) {
     #process {
         width: 480px;
-        height: 1300px;
+        height: 700px;
     }
 }
 .process-container
 {
-	margin-left: 60px;
-	
+	margin-left: 65px;
 }
 @media screen and (max-width:1000px ) {
     .process-container {
@@ -828,7 +833,7 @@ width:490px;
     .process-container {
         margin-left: 20px;
         width: 450px;
-		
+		height: 1000px;
         margin-top:40px;
     }
 }
@@ -858,14 +863,23 @@ width:490px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 .process-box 
 {
     
-    width:200px;
+    width:195px;
     height:285px;
-    box-shadow: 0 0 0.9rem #12f7ff;
     margin-left:10px;
-	transition: all ease 0.6s;
 	
 	
 }
@@ -882,7 +896,7 @@ width:490px;
         margin-left: 0px;
 		margin-top: 0px;
 		width:400px;
-		height:210px;
+		height:200px;
     }
 }
 
@@ -936,21 +950,26 @@ border: 2px solid var(--hover-color);
 	opacity: 1;
 	
 }
-.overlay h4
+.overlay h6
 {
 	padding-top: 30px;
-	font-size: 30px;
+	font-size: 20px;
 	color: var(--hover-color);
 	font-weight: 700;
 	text-align: center;
+}
+.overlay h6:hover 
+{
+    text-shadow: 0 0 10px rgba(18,247,255,0.6), 0 0 20px rgba(118,247,255,0.6), 0 0 30px rgba(18,247,255,0.6), 0 0 40px rgba(18,247,255,0.6), 0 0 70px rgba(18,247,255,0.6), 0 0 80px rgba(18,247,255,0.6), 0 0 100px rgba(18,247,255,0.6), 0 0 150px rgba(18,247,255,0.6);
+    color: #0cbef5;
 }
 .overlay p
 {
 	padding-top: 20px;
 	color: var(--hover-color);
 	font-weight: 100;
-	text-align: center;
-	padding: 20px;
+	text-align: left;
+	padding: 10px;
 	padding-bottom: 50px;
 }
 
@@ -1015,7 +1034,7 @@ border: 2px solid var(--hover-color);
 }
 
 .photoshop {
-	width: 50px;
+	width: 90px;
 	animation: photoshop 2s;
 	background: var(--bg-color);
 }
@@ -1033,7 +1052,7 @@ border: 2px solid var(--hover-color);
 }
 
 .graphic {
-	width: 55px;
+	width: 85px;
 	animation: graphic 5s;
 	background: var(--bg-color);
 }
@@ -1151,6 +1170,7 @@ border: 2px solid var(--hover-color);
 	border: 2px solid var(--hover-color);
 	box-shadow: 0 0 0.9rem #12f7ff;
 }
+
 @media screen and (max-width:1000px ) {
 	.portfolio-box {
 		margin-top: 30px;
