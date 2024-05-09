@@ -486,12 +486,12 @@ social-icons a:hover::before {
 
     #portfolio {
         margin-top: 100px;
-        height: 1000px;
+        height: 1100px;
     }
 
     @media screen and (max-width:1000px ) {
         #portfolio {
-            height: 1000px;
+            height: 1300px;
         }
     }
 
