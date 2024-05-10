@@ -537,6 +537,7 @@ social-icons a:hover::before {
         .portfolio-img img {
             width: 190px;
 		height: 200px;
+		margin-top: 20px;
         }
     }
 
