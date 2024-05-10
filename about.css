@@ -418,7 +418,7 @@ span {
 #about {
     background: var(--bg-color);
     padding: 10px;
-    margin-top: -50px;
+    margin-top: -100px;
     height: 500px;
 }
 
