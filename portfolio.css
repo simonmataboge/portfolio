@@ -152,7 +152,7 @@
 		z-index: 1;
 		height: 360px;
 		top: 100px;
-		left: 20px;
+		left: 40px;
 		background-color: var(--bg-color);
 		overflow-x: hidden;
 		transition: 0.5s;
