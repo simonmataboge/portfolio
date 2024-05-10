@@ -562,7 +562,7 @@ social-icons a:hover::before {
     }
     @media screen and (max-width:1000px ) {
         #hosting {
-            height:640px;
+            height:540px;
         }
     }
     @media screen and (max-width:400px ) {
