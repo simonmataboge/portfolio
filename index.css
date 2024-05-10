@@ -611,7 +611,7 @@ span {
 }
 @media screen and (max-width:400px ) {
 	#about {
-		width: 500px;
+		width: 490px;
 	}
 }
 .about {
@@ -993,7 +993,7 @@ border: 2px solid var(--hover-color);
 }
 @media screen and (max-width:400px ) {
 	#skills {
-		width: 500px;
+		width: 490px;
 		margin-top: 560px;
 	}
 }
@@ -1252,7 +1252,7 @@ border: 2px solid var(--hover-color);
 }
 @media screen and (max-width:400px ) {
 	#contacts {
-		width: 500px;
+		width: 490px;
 	}
 }
 .contacts {
@@ -1338,7 +1338,7 @@ border: 2px solid var(--hover-color);
 @media screen and (max-width:400px ) {
 	#footer {
 		margin-top: 1px;
-		width: 500px;
+		width: 490px;
 	}
 }
 
@@ -1362,7 +1362,7 @@ border: 2px solid var(--hover-color);
 
 @media screen and (max-width:400px ) {
 	.footer {
-		width: 500px;
+		width: 490px;
 	}
 }
 
@@ -1452,7 +1452,7 @@ border: 2px solid var(--hover-color);
 
 @media screen and (max-width:400px ) {
 	.copyright {
-		width: 500px;
+		width: 490px;
 	}
 }
         
