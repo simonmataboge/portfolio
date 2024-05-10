@@ -561,13 +561,13 @@ social-icons a:hover::before {
     }
     @media screen and (max-width:1000px ) {
         #hosting {
-            height:540px;
+            height:640px;
         }
     }
     @media screen and (max-width:400px ) {
         #hosting {
             width:490px;
-            height:500px;        
+            height:640px;        
         }
     }
     .hosting-box
