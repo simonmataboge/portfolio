@@ -152,7 +152,7 @@
 		z-index: 1;
 		height: 360px;
 		top: 100px;
-		left: 40px;
+		left: 30px;
 		background-color: var(--bg-color);
 		overflow-x: hidden;
 		transition: 0.5s;
@@ -491,7 +491,7 @@ social-icons a:hover::before {
 
     @media screen and (max-width:1000px ) {
         #portfolio {
-            height: 1600px;
+            height: 1400px;
         }
     }
 
@@ -536,7 +536,7 @@ social-icons a:hover::before {
     @media screen and (max-width:1000px ) {
         .portfolio-img img {
             width: 190px;
-		height: 240px;
+		height: 200px;
         }
     }
 
