@@ -662,7 +662,7 @@ h4 {
 @media screen and (max-width:1000px ) {
     #about-more {
         margin-left: 10px;
-        height: 750px;
+        height: 1000px;
     }
 }
 @media screen and (max-width:400px ) {
