@@ -709,7 +709,7 @@ h4 {
 
             @media screen and (max-width:1000px ) {
                 #footer {
-                    margin-top: 200px;
+                    margin-top: 1px;
                 }
             }
 
