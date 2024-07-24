@@ -654,7 +654,7 @@ h4 {
 
 #services {
 	margin-top: 100px;
-	height: 400px;
+	height: 500px;
 }
 @media screen and (max-width:1000px ) {
 	#services {
@@ -769,8 +769,8 @@ width:490px;
 	width: 0;
 }
 
-.single-service p {
-	margin-left: 0px;
+.single-service p, .single-service ul li {
+	margin-left: -30px;
 	width: 190px;
 	color: var(--hover-color);
 	padding: 10px;
@@ -788,189 +788,11 @@ width:490px;
 }
 
 
-/*--process--*/
-
-
-
-
-
-
-
-
-
-
-
-#process 
+.single-service li
 {
-    margin-top: 60px;
-    height: 500px;
-}
-
-@media screen and (max-width:1000px ) {
-    #process {
-        width: 480px;
-        height: 700px;
-    }
-}
-@media screen and (max-width:400px ) {
-    #process {
-        width: 480px;
-        height: 700px;
-    }
-}
-.process-container
-{
-	margin-left: 65px;
-}
-@media screen and (max-width:1000px ) {
-    .process-container {
-        margin-left: 20px;
-        width: 430px;
-        margin-top:0px;
-    }
-}
-@media screen and (max-width:400px ) {
-    .process-container {
-        margin-left: 20px;
-        width: 450px;
-		height: 1000px;
-        margin-top:40px;
-    }
-}
-.process
-{
-    margin-top:60px;
-    margin-left:0px;
-	display: inline-block;
-}
-@media screen and (max-width:1000px ) {
-    .process {
-        margin-left: 0px;
-        height: 300px;
-        width: 200px;
-        margin-top:0px;
-    }
-}
-
-@media screen and (max-width:400px ) {
-    .process {
-        margin-left: 20px;
-        width: 400px;
-        text-align: center;
-        margin-top: 0px;
-
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.process-box 
-{
-    
-    width:195px;
-    height:285px;
-    margin-left:10px;
-	
-	
-}
-.process-box:hover{
-	transform: rotate3d(1,1,0,20deg);
-}
-@media screen and (max-width:1000px ) {
-    .process-box {
-        margin-top: 40px;
-    }
-}
-@media screen and (max-width:400px ) {
-    .process-box {
-        margin-left: 0px;
-		margin-top: 0px;
-		width:400px;
-		height:200px;
-    }
-}
-
-
-#design
-{
-		
-	background-image: url( brandy.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#develop
-{
-		
-	background-image: url( joshua.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#test
-{
-		
-	background-image: url( christina.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#deliver
-{
-		
-	background-image: url( heylago.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-.overlay{
-	height: 100%;
-	width: 100%;
-border: 2px solid var(--hover-color);
-	box-shadow: 0 0 0.9rem #12f7ff;
-	border-radius: 5px;
-	background: var(--bg-color);
-	opacity: 0;
-	transition: all ease 0.6s;
-	border-radius: 5px;
-	
-}
-.overlay:hover
-{
-	opacity: 1;
-	
-}
-.overlay h6
-{
-	padding-top: 30px;
-	font-size: 20px;
-	color: var(--hover-color);
-	font-weight: 700;
-	text-align: center;
-}
-.overlay h6:hover 
-{
-    text-shadow: 0 0 10px rgba(18,247,255,0.6), 0 0 20px rgba(118,247,255,0.6), 0 0 30px rgba(18,247,255,0.6), 0 0 40px rgba(18,247,255,0.6), 0 0 70px rgba(18,247,255,0.6), 0 0 80px rgba(18,247,255,0.6), 0 0 100px rgba(18,247,255,0.6), 0 0 150px rgba(18,247,255,0.6);
-    color: #0cbef5;
-}
-.overlay p
-{
-	padding-top: 20px;
-	color: var(--hover-color);
-	font-weight: 100;
-	text-align: left;
-	padding: 10px;
-	padding-bottom: 50px;
+	list-style: none;
+	margin-left: -20px;
+	margin-top: -15px;
 }
 
 
