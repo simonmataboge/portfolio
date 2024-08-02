@@ -723,7 +723,9 @@ width:490px;
 }
 @media screen and (max-width:1000px ) {
 	.single-service h6 {
-		margin-left:50px;
+		
+		text-align: left;
+		padding: 20px;
 	}
 }
 .single-service .fa 
