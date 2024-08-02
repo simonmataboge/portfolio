@@ -658,7 +658,7 @@ h4 {
 }
 @media screen and (max-width:1000px ) {
 	#services {
-		height:1100px;
+		height:1600px;
 	}
 }
 .services {
@@ -706,7 +706,7 @@ width:490px;
 	.single-service {
 		width:400px;
 		margin-top:100px;
-		height:160px;
+		height:260px;
 		margin-left:0px;
 	}
 }
@@ -775,6 +775,13 @@ width:490px;
 	color: var(--hover-color);
 	padding: 10px;
 	float: left;
+}
+@media screen and (max-width:1000px ) {
+	.single-service ul li {
+		text-align:;
+		margin-left:10px;
+		width:350px;
+	}
 }
 @media screen and (max-width:1000px ) {
 	.single-service p {
