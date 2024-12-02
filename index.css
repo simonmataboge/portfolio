@@ -23,7 +23,7 @@ body {
 	color: var(--text-color);
 }
 	[data-scroll] {
-  transition: opacity 4s;
+  transition: opacity 2s;
 }
 [data-scroll="in"] {
   opacity: 1;
