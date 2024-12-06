@@ -823,7 +823,7 @@ width:490px;
 @media screen and (max-width:400px ) {
     #process {
         width: 480px;
-        height: 700px;
+        height: 1200px;
     }
 }
 .process-container
