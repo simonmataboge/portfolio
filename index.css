@@ -823,7 +823,7 @@ width:490px;
 @media screen and (max-width:400px ) {
     #process {
         width: 480px;
-        height: 1300px;
+        height: 1000px;
     }
 }
 .process-container
@@ -1032,7 +1032,11 @@ border: 2px solid var(--hover-color);
 .skills-bar p {
 	color: var(--hover-color);
 }
-
+.skills .buy-btn
+{
+	margin-left: 445px;
+	margin-top: 20px;
+}
 .familiar-progress {
 	background: var(--hover-color);
 	border: 2px solid var(--hover-color);
