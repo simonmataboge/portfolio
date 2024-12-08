@@ -1037,6 +1037,11 @@ border: 2px solid var(--hover-color);
 	margin-left: 445px;
 	margin-top: 20px;
 }
+@media screen and (max-width:1000px ) {
+	.skills .buy-btn {
+		margin-left:10px;
+	}
+}
 .familiar-progress {
 	background: var(--hover-color);
 	border: 2px solid var(--hover-color);

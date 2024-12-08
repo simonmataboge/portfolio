@@ -148,48 +148,63 @@
 
 
 
+/*--sidepanel--*/
 .sidepanel {
-    width: 0px;
-    position: fixed;
-    z-index: 1;
-    height: 360px;
-    top: 90px;
-    left: 20px;
-    background-color: var(--bg-color);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    border-radius: 10px;
-    text-decoration: none;
-    list-style: none;
+	display:none;
+}
+
+@media screen and (max-width:1000px ) {
+	.sidepanel {
+		display: block !important;
+		width: 0px;
+		position: fixed;
+		z-index: 1;
+		height: 360px;
+		top: 90px;
+		left: 20px;
+		background-color: var(--bg-color);
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 60px;
+		border-radius: 10px;
+		text-decoration:none;
+		list-style:none;
+	}
 }
 
 
-    .sidepanel a {
-        display: inline-block;
-        padding: 8px 8px 18px 26px;
-        color: white;
-        box-sizing: border-box;
-        list-style: none;
-        animation: slideAnimation 1s ease forwards;
-        text-decoration: none;
-        animation-delay: calc(.3s * var(--i));
-        opacity: 0;
-    }
 
-        .sidepanel a:hover {
-            text-decoration: none;
-            color: var(--hover-color);
-            text-shadow: 0 0 10px rgba(18,247,255,0.6), 0 0 20px rgba(118,247,255,0.6), 0 0 30px rgba(18,247,255,0.6), 0 0 40px rgba(18,247,255,0.6), 0 0 70px rgba(18,247,255,0.6), 0 0 80px rgba(18,247,255,0.6), 0 0 100px rgba(18,247,255,0.6), 0 0 150px rgba(18,247,255,0.6);
-        }
+.sidepanel a {
+	display: block;
+	padding: 0px 0px 0px 26px;
+	color: white;
+	box-sizing: border-box;
+	list-style: none;
+	animation: slideAnimation 1s ease forwards;
+	text-decoration: none;
+	animation-delay: calc(.3s * var(--i));
+	opacity: 0;
+}
 
-.sidepanel a::after{
+.sidepanel a:hover {
+	text-decoration: none;
+	color: var(--hover-color);
+	text-shadow: 0 0 10px rgba(18,247,255,0.6), 
+		0 0 20px rgba(118,247,255,0.6), 
+		0 0 30px rgba(18,247,255,0.6), 
+		0 0 40px rgba(18,247,255,0.6), 
+		0 0 70px rgba(18,247,255,0.6), 
+		0 0 80px rgba(18,247,255,0.6), 
+		0 0 100px rgba(18,247,255,0.6), 
+		0 0 150px rgba(18,247,255,0.6);
+}
+.sidepanel li a::after{
     content:"";
     position:absolute;
     background:#12f7ff;
-    width:100%;
+    width:15%;
     height:.2rem;
-    left:-5px;
+    left:26px;
     bottom:-5px;
     transform:scaleX(0);
     transform-origin:bottom right;
@@ -197,49 +212,39 @@
     
 
 }
-.sidepanel a:hover::after {
+.sidepanel li a:hover::after {
     transform:scaleX(1);
     transform-origin:bottom left;
 
 }
+.sidepanel .closebtn {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	font-size: 36px;
+	margin-top: -10px;
 
-    .sidepanel .closebtn {
-        position: absolute;
-        top: 0;
-        right: 5px;
-        font-size: 36px;
-        margin-top: -10px;
-    }
+}
 
 .menu-icon {
-    font-size: 20px;
-    z-index: 10001;
-    cursor: pointer;
-    margin-left: -4px;
-    margin-top: 4px;
-    border-radius: 3px;
-    color: var(--hover-color);
-    padding: 0 5px;
-    text-decoration: none;
-    list-style: none;
-    font-weight: 500;
+	font-size: 20px;
+	z-index: 10001;
+	cursor: pointer;
+	margin-left: -4px;
+	margin-top: 4px;
+	border-radius: 3px;
+	color: var(--hover-color);
+	padding: 0 5px;
+	text-decoration: none;
+	list-style: none;
+	font-weight:500;
 }
 
-    .menu-icon:hover {
-        background: var(--hover-color);
-    }
-
-.sidepanel-icon {
-    font-size: 26px;
-    z-index: 10001;
-    cursor: pointer;
-    margin-left: 255px;
-    margin-top: -10px;
-    background-color: var(--hover-color);
-    border-radius: 3px;
-    color: var(--secon-bg-color);
-    padding: 0 5px;
+.menu-icon:hover {
+	background:var(--hover-color);
 }
+
+
 
 #home {
     padding: 10px;

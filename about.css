@@ -32,36 +32,36 @@ body {
   opacity: 0;
 }
 .header {
-    display: flex;
-    align-items: center;
-    justify-content:;
-    width: 100%;
-    list-style: none;
-    padding: 10px 20px;
-    background-color: var(--bg-color);
-    color: white;
-    border: 2px solid var(--hover-color);
-    box-shadow: 0 0 1rem #12f7ff;
-    margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content:;
+	width: 100%;
+	list-style: none;
+	padding: 10px 20px;
+	background-color: var(--bg-color);
+	color: white;
+	border: 2px solid var(--hover-color);
+	box-shadow: 0 0 1rem #12f7ff;
+	margin-top:10px;
 }
-@media screen and (max-width:1000px ) {
-    .header {
-        width: 480px;
-    }
-}
+
 @media screen and (max-width:400px ) {
-    .header {
-        width: 480px;
-    }
+	.header {
+		width: 490px;
+	}
 }
-    .header li {
-        padding: 10px 5%;
-    }
+.header li {
+	padding: 10px 5%;
+}
 
 .logo {
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 1px;
+	font-size: 26px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	animation: zoomOut 1s ease forwards;
+	animation-delay: 1s;
+	opacity: 0;
+
 }
 @media screen and (max-width:1000px ) {
     .logo {
@@ -74,41 +74,55 @@ body {
         margin-left: 150px;
     }
 }
+@keyframes zoomOut{
+	0%{
+		transform: scale(1.1);
+		opacity: 0;
+	}
+	100%{
+		transform: scale(1);
+		opacity: 1;		
+	}
+}
 span {
-    color: var(--hover-color);
-    font-size: 20px;
-    font-weight: 800;
+	color: var(--hover-color);
+	font-size: 20px;
+	font-weight: 800;
 }
 
 .navlist {
-    display: flex;
-    list-style: none;
-    margin-top: 10px;
-    margin-left: 150px;
+	display: flex;
+	list-style: none;
+	margin-top: 10px;
+	margin-left: 150px;
 }
-
 @media screen and (max-width:1000px ) {
-    .navlist {
-        display: none;
-    }
+	.navlist {
+		display:none;
+	}
 }
-
 .navlist a {
-    display: inline-block;
-    color: white;
-    padding: 0 10px 0 0;
-    box-sizing: border-box;
-    list-style: none;
-    animation: slideAnimation 1s ease forwards;
-    text-decoration: none;
-    opacity: 0;
+	display:inline-block;
+	color: white;
+	padding: 0 10px 0 0;
+	box-sizing: border-box;
+	list-style: none;
+	animation:slideAnimation 1s ease forwards;
+	text-decoration: none;
+	animation-delay:calc(.3s * var(--i));
+	opacity:0;
 }
 
-    .navlist a:hover {
-        text-decoration: none;
-        color: var(--hover-color);
-        text-shadow: 0 0 10px rgba(18,247,255,0.6), 0 0 20px rgba(118,247,255,0.6), 0 0 30px rgba(18,247,255,0.6), 0 0 40px rgba(18,247,255,0.6), 0 0 70px rgba(18,247,255,0.6), 0 0 80px rgba(18,247,255,0.6), 0 0 100px rgba(18,247,255,0.6), 0 0 150px rgba(18,247,255,0.6);
-    }
+.navlist a:hover {
+	text-decoration: none;
+	color: var(--hover-color);
+	text-shadow: 0 0 10px rgba(18,247,255,0.6), 0 0 20px rgba(118,247,255,0.6), 0 0 30px rgba(18,247,255,0.6), 0 0 40px rgba(18,247,255,0.6), 0 0 70px rgba(18,247,255,0.6), 0 0 80px rgba(18,247,255,0.6), 0 0 100px rgba(18,247,255,0.6), 0 0 150px rgba(18,247,255,0.6);
+}
+
+
+
+
+
 
 .navlist li a::after{
     content:"";
@@ -131,67 +145,63 @@ span {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*--sidepanel--*/
 .sidepanel {
-    width: 0px;
-    position: fixed;
-    z-index: 1;
-    height: 360px;
-    top: 90px;
-    left: 20px;
-    background-color: var(--bg-color);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    border-radius: 10px;
-    text-decoration: none;
-    list-style: none;
+	display:none;
+}
+
+@media screen and (max-width:1000px ) {
+	.sidepanel {
+		display: block !important;
+		width: 0px;
+		position: fixed;
+		z-index: 1;
+		height: 360px;
+		top: 90px;
+		left: 20px;
+		background-color: var(--bg-color);
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 60px;
+		border-radius: 10px;
+		text-decoration:none;
+		list-style:none;
+	}
 }
 
 
-            .sidepanel a {
-                display: inline-block;
-                padding: 8px 8px 18px 26px;
-                color: white;
-                box-sizing: border-box;
-                list-style: none;
-                animation: slideAnimation 1s ease forwards;
-                text-decoration: none;
-                animation-delay: calc(.3s * var(--i));
-                opacity: 0;
-            }
 
-        .sidepanel a:hover {
-            text-decoration: none;
-            color: var(--hover-color);
-            text-shadow: 0 0 10px rgba(18,247,255,0.6), 
-                0 0 20px rgba(118,247,255,0.6), 
-                0 0 30px rgba(18,247,255,0.6), 
-                0 0 40px rgba(18,247,255,0.6), 
-                0 0 70px rgba(18,247,255,0.6), 
-                0 0 80px rgba(18,247,255,0.6), 
-                0 0 100px rgba(18,247,255,0.6), 
-                0 0 150px rgba(18,247,255,0.6);
-        }
-.sidepanel a::after{
+.sidepanel a {
+	display: block;
+	padding: 0px 0px 0px 26px;
+	color: white;
+	box-sizing: border-box;
+	list-style: none;
+	animation: slideAnimation 1s ease forwards;
+	text-decoration: none;
+	animation-delay: calc(.3s * var(--i));
+	opacity: 0;
+}
+
+.sidepanel a:hover {
+	text-decoration: none;
+	color: var(--hover-color);
+	text-shadow: 0 0 10px rgba(18,247,255,0.6), 
+		0 0 20px rgba(118,247,255,0.6), 
+		0 0 30px rgba(18,247,255,0.6), 
+		0 0 40px rgba(18,247,255,0.6), 
+		0 0 70px rgba(18,247,255,0.6), 
+		0 0 80px rgba(18,247,255,0.6), 
+		0 0 100px rgba(18,247,255,0.6), 
+		0 0 150px rgba(18,247,255,0.6);
+}
+.sidepanel li a::after{
     content:"";
     position:absolute;
     background:#12f7ff;
-    width:100%;
+    width:15%;
     height:.2rem;
-    left:-5px;
+    left:26px;
     bottom:-5px;
     transform:scaleX(0);
     transform-origin:bottom right;
@@ -199,39 +209,37 @@ span {
     
 
 }
-.sidepanel a:hover::after {
+.sidepanel li a:hover::after {
     transform:scaleX(1);
     transform-origin:bottom left;
 
 }
-    .sidepanel .closebtn {
-        position: absolute;
-        top: 0;
-        right: 5px;
-        font-size: 36px;
-        margin-top: -10px;
-    }
+.sidepanel .closebtn {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	font-size: 36px;
+	margin-top: -10px;
 
-.menu-icon {
-    font-size: 20px;
-    z-index: 10001;
-    cursor: pointer;
-    margin-left: -4px;
-    margin-top: 4px;
-    border-radius: 3px;
-    color: var(--hover-color);
-    padding: 0 5px;
-    text-decoration: none;
-    list-style: none;
-    font-weight: 500;
 }
 
-    .menu-icon:hover {
-        background: var(--hover-color);
-    }
+.menu-icon {
+	font-size: 20px;
+	z-index: 10001;
+	cursor: pointer;
+	margin-left: -4px;
+	margin-top: 4px;
+	border-radius: 3px;
+	color: var(--hover-color);
+	padding: 0 5px;
+	text-decoration: none;
+	list-style: none;
+	font-weight:500;
+}
 
-
-
+.menu-icon:hover {
+	background:var(--hover-color);
+}
 
 
 
@@ -644,7 +652,7 @@ h4 {
 @media screen and (max-width:1000px ) {
     #about-more {
         margin-left: 10px;
-        height: 750px;
+        height: 1200px;
     }
 }
 @media screen and (max-width:400px ) {
@@ -941,6 +949,28 @@ social-icons a:hover::before {
 
 
 
+#about-skills {
+    background: var(--secon-bg-color);
+    padding: 10px;
+    margin-top: 50px;
+    height: 500px;
+}
+
+@media screen and (max-width:1000px ) {
+    #about-skills {
+        height: 820px;
+    }
+}
+@media screen and (max-width:400px ) {
+    #about-skills {
+        width: 490px;
+        height: 680px;
+    }
+}
+.about-skills {
+    margin-left: 0px;
+    margin-top: 50px;
+}
 
 
 
@@ -953,7 +983,11 @@ social-icons a:hover::before {
 	background-size: cover;
 	background-position: ;
 	height: 400px;
-	width: 100%;
+}
+@media screen and (max-width:1000px ) {
+	#comphome {
+		width: 490px;
+	}
 }
 .comphome 
 {
@@ -969,6 +1003,11 @@ social-icons a:hover::before {
     width: 220px;
     display: inline-block;
 	margin-top: 40px;
+}
+@media screen and (max-width:1000px ) {
+	.skills-home-content {
+		width: 210px;
+	}
 }
 .skills-home-content ul li{
 	list-style: circle;
