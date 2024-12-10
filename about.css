@@ -1012,6 +1012,7 @@ social-icons a:hover::before {
 @media screen and (max-width:400px ) {
 	.skills-home-content {
 		width: 180px;
+		background-color:red;
 	}
 }
 .skills-home-content ul li{
