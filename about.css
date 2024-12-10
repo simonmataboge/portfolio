@@ -982,7 +982,7 @@ social-icons a:hover::before {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: ;
-	height: 400px;
+	height: 400px;background-color:red;
 }
 @media screen and (max-width:1000px ) {
 	#comphome {
@@ -1001,7 +1001,7 @@ social-icons a:hover::before {
 }
 @media screen and (max-width:400px ) {
 	.home-content {
-		width: 490px;background-color:red;
+		width: 490px;
 	}
 }
 .skills-home-content {
