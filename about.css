@@ -1009,6 +1009,11 @@ social-icons a:hover::before {
 		width: 210px;
 	}
 }
+@media screen and (max-width:400px ) {
+	.skills-home-content {
+		width: 180px;
+	}
+}
 .skills-home-content ul li{
 	list-style: circle;
 	margin-left: -20px;
