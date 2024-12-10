@@ -993,7 +993,7 @@ social-icons a:hover::before {
 {
     padding: 10px;
     margin-left: 0px;
-    margin-top: -80px;background-color:red;
+    margin-top: -80px;background-color:red;width: 470px;
 }
 .home-content
 {
