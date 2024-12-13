@@ -658,10 +658,11 @@ h4 {
 @media screen and (max-width:400px ) {
     #about-more {
         margin-left: 10px;
-        height: 1200px;
+        height: 1100px;
     }
 }
-.about-more {background-color:red;
+.about-more {
+	background-color:red;
     height: 100%;
     width: 100%;
     align-items: center;
