@@ -276,7 +276,7 @@ span {
 }
 @media screen and (max-width:400px ) {
    .home-content {
-        width: 390px;
+        width: 300px;
     }
 }
     .home-content h1 {
