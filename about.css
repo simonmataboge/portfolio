@@ -271,7 +271,7 @@ span {
 }
 
 .home-content {
-    width: 400px;
+    width: 300px;
     display: inline-block;background-color:red;
 }
 @media screen and (max-width:400px ) {
