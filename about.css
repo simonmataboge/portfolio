@@ -646,7 +646,7 @@ h4 {
     padding: 10px;
     margin-left: 50px;
     margin-top: 40px;
-    height: 600px;background-color:red;
+    height: 600px;
 }
 
 @media screen and (max-width:1000px ) {
@@ -661,7 +661,7 @@ h4 {
         height: 1200px;
     }
 }
-.about-more {
+.about-more {background-color:red;
     height: 100%;
     width: 100%;
     align-items: center;
