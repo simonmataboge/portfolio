@@ -274,7 +274,11 @@ span {
     width: 400px;
     display: inline-block;background-color:red;
 }
-
+@media screen and (max-width:400px ) {
+   .home-content {
+        width: 390px;
+    }
+}
     .home-content h1 {
         font-size: var(--big-font);
         font-weight: 700;
