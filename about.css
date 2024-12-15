@@ -272,7 +272,7 @@ span {
 
 .home-content {
     width: 400px;
-    display: inline-block;background-color:red;
+    display: inline-block;
 }
 @media screen and (max-width:400px ) {
    .home-content {
