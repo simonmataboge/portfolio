@@ -446,7 +446,6 @@ social-icons a:hover::before {
     border: 2px solid var(--hover-color);
     box-shadow: 0 0 0.9rem #12f7ff;
     height: 400px;
-    margin-left: 10px;
     width: 860px;
 }
 
