@@ -494,7 +494,7 @@ social-icons a:hover::before {
     }
 
     .portfolio {
-        margin-left: 20px;
+        margin-left: 60px;
     }
 
     @media screen and (max-width:1000px ) {
@@ -505,9 +505,9 @@ social-icons a:hover::before {
     }
 
     .portfolio-box {
-        width: 260px;
-        height: 280px;
-        margin-left: 40px;
+        width: 200px;
+        height: 200px;
+        margin-left: 10px;
         margin-top: 40px;
         display: inline-block;
         border: 2px solid var(--hover-color);
@@ -524,8 +524,8 @@ social-icons a:hover::before {
     }
 
     .portfolio-img img {
-        height: 270px;
-        width: 240px;
+        height: 190px;
+        width: 190px;
         padding: 10px;
         margin-left: 10px;
     }
