@@ -389,10 +389,9 @@ span {
 }
 
     .img-box img {
-        width: 100%;
-        width: 300px;
-        height: 300px;
-        margin-top: 10px;
+        width: 250px;
+        height: 250px;
+        margin-top: 40px;
         margin-left: 50px;
     }
 
@@ -412,15 +411,14 @@ span {
 
 
 #about {
-    background: var(--secon-bg-color);
     padding: 10px;
     margin-top: 50px;
-    height: 500px;
+    height: 800px;
 }
 
 @media screen and (max-width:1000px ) {
     #about {
-        height: 620px;
+        height: 1020px;
     }
 }
 @media screen and (max-width:400px ) {
@@ -431,9 +429,30 @@ span {
 }
 .about {
     margin-left: 0px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
-
+.about-box img {
+    float: left;
+    width: 250px;
+    height: 200px;
+	margin-left: 50px;
+	
+}
+@media screen and (max-width:1000px ) {
+    .about-box img {
+        margin-left: 100px;
+    }
+}
+.about-box p, .more-skills p
+{
+	padding: 50px;
+	
+}
+@media screen and (max-width:1000px ) {
+    .about-box p {
+       padding: 10px;
+    }
+}
 h4 {
     color: var(--hover-color);
     font-size: 30px;
@@ -471,7 +490,12 @@ h4 {
     margin-left: 40px;
     margin-top: 40px;
 }
-
+@media screen and (max-width:1000px ) {
+    .about-box {
+        margin-left: 10px;
+		width: 480px;
+    }
+}
 
 
 #skills {
@@ -605,12 +629,42 @@ h4 {
     }
 }
 
+.more-skills {
+    width: 440px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 0px;
+    padding: 20px;
+    color: var(--hover-color);
+}
 
+@media screen and (max-width:1000px ) {
+    .more-skills {
+        margin-left: 0px;
+    }
+}
 
-    .more-about .img-box {
+    more-about .img-box {
         margin-left: 60px;
     }
-
+.more-skills img {
+    width: 250px;
+    height: 200px;
+	margin-left: 50px;
+	
+}
+@media screen and (max-width:1000px ) {
+    .more-skills img {
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:1000px ) {
+     .more-skills p {
+       padding: 10px;
+		 margin-left: -20px;
+		 width: 480px;
+    }
+}
 .about-content {
     display: inline-block;
     width: 400px;
@@ -650,13 +704,13 @@ h4 {
     padding: 10px;
     margin-left: 50px;
     margin-top: 40px;
-    height: 600px;
+    height: 1000px;
 }
 
 @media screen and (max-width:1000px ) {
     #about-more {
         margin-left: 10px;
-        height: 960px;
+        height: 1450px;
     }
 }
 @media screen and (max-width:400px ) {
@@ -678,23 +732,7 @@ h4 {
          margin-left: 50px;
     }
 }
-.more-skills {
-    width: 440px;
-    margin-top: 50px;
-    display: inline-block;
-    margin-left: 0px;
-    border: 2px solid var(--bg-color);
-    box-shadow: 0 0 1rem #12f7ff;
-    padding: 20px;
-    background: var(--bg-color);
-    color: var(--hover-color);
-}
 
-@media screen and (max-width:1000px ) {
-    .more-skills {
-        margin-left: 0px;
-    }
-}
 
 
             #footer {
