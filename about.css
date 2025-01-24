@@ -424,7 +424,7 @@ span {
 @media screen and (max-width:400px ) {
     #about {
         width: 490px;
-        height: 680px;
+        height: 1020px;
     }
 }
 .about {
@@ -643,7 +643,24 @@ h4 {
         margin-left: 0px;
     }
 }
+.about-more-skills {
+    width: 440px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 0px;
+    padding: 20px;
+    color: var(--hover-color);
+}
 
+@media screen and (max-width:1000px ) {
+    .about-more-skills {
+        margin-left: 0px;
+    }
+}
+.about-more-skills p
+{
+	padding: 10px;
+}
     more-about .img-box {
         margin-left: 60px;
     }
@@ -732,8 +749,6 @@ h4 {
          margin-left: 50px;
     }
 }
-
-
 
             #footer {
                 background: var(--bg-color);
@@ -993,7 +1008,7 @@ social-icons a:hover::before {
 
 
 #about-skills {
-    background: var(--secon-bg-color);
+    background: var(--bg-color);
     padding: 10px;
     margin-top: 50px;
     height: 700px;
@@ -1025,7 +1040,7 @@ social-icons a:hover::before {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: ;
-	height: 400px;
+	height: 500px;
 }
 @media screen and (max-width:1000px ) {
 	#comphome {
@@ -1035,7 +1050,7 @@ social-icons a:hover::before {
 #skills-home {
     padding: 10px;
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 @media screen and (max-width:1000px ) {
@@ -1080,7 +1095,7 @@ social-icons a:hover::before {
 		
 	}
 }
-.skills-home-content ul li{
+.skills-home-content ul li, .about-more-skills ul li, .work-box ul li{
 	list-style: circle;
 	margin-left: -20px;
 }
@@ -1200,3 +1215,107 @@ social-icons a:hover::before {
     margin-top: 5px;
 }
 
+
+
+
+
+
+
+#about-more-skills {
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+    height: 700px;
+	
+}
+
+@media screen and (max-width:1000px ) {
+    #about-more-skills {
+        margin-left: 10px;
+        height: 1200px;
+    }
+}
+@media screen and (max-width:400px ) {
+    #about-more-skills {
+        margin-left: 10px;
+        height: 1000px;
+    }
+}
+
+
+
+
+
+
+
+#about-business {
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+    height: 550px;
+	
+}
+
+@media screen and (max-width:1000px ) {
+    #about-business  {
+        margin-left: 10px;
+        height: 1000px;
+    }
+}
+@media screen and (max-width:400px ) {
+    #about-business  {
+        margin-left: 10px;
+        height: 1000px;
+    }
+}
+
+
+
+
+
+
+
+
+#work-skills {
+    background: var(--bg-color);
+    padding: 10px;
+    margin-top: 50px;
+    height: 350px;
+}
+
+@media screen and (max-width:1000px ) {
+    #work-skills {
+        height: 900px;
+		
+    }
+}
+@media screen and (max-width:400px ) {
+    #work-skills {
+        width: 490px;
+        height: 1300px;
+    }
+}
+.work-skills
+{
+	margin-left: 40px;
+	margin-top: 50px;
+}
+.work-box {
+    display: inline-block;
+    color: var(--hover-color);
+    width: 220px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+@media screen and (max-width:1000px ) {
+    .work-box {
+        margin-left: 10px;
+		width: 220px;
+    }
+}
+@media screen and (max-width:400px ) {
+    .work-box {
+        margin-left: 10px;
+		width: 480px;
+    }
+}
