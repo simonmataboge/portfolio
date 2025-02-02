@@ -1225,7 +1225,7 @@ social-icons a:hover::before {
     padding: 10px;
     margin-left: 50px;
     margin-top: 40px;
-    height: 700px;background-color: red;
+    height: 700px;
 	
 }
 
@@ -1252,7 +1252,7 @@ social-icons a:hover::before {
     padding: 10px;
     margin-left: 50px;
     margin-top: 40px;
-    height: 550px;background-color: blue;
+    height: 550px;
 	
 }
 
@@ -1316,6 +1316,6 @@ social-icons a:hover::before {
 @media screen and (max-width:400px ) {
     .work-box {
         margin-left: 10px;
-		width: 480px;
+		width: 480px;background-color: blue;
     }
 }
