@@ -1316,6 +1316,6 @@ social-icons a:hover::before {
 @media screen and (max-width:400px ) {
     .work-box {
         margin-left: 10px;
-		width: 480px;background-color: blue;
+		width: 400px;background-color: blue;
     }
 }
