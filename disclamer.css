@@ -32,6 +32,12 @@ h1 {
 	border: 2px solid var(--hover-color);
 	box-shadow: 0 0 1rem #12f7ff;
 }
+@media screen and (max-width:1000px ){
+	h1{
+       
+        width: 100%;
+	}
+}
 h2:hover{
    	color: #12f7ff;
 }
@@ -44,6 +50,11 @@ h2:hover{
     height: 40px;
     margin-top: 10px;
     margin-left: 100px;
+}
+@media screen and (max-width:1000px ){
+	.buy-btn{
+        margin-left:10px;
+	}
 }
 
     .buy-btn a {
