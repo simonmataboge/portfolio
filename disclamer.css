@@ -35,3 +35,79 @@ h1 {
 h2:hover{
    	color: #12f7ff;
 }
+
+
+.buy-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+    .buy-btn a {
+        display: flex;
+        width: 250px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        color: var(--hover-color);
+        font-size: 1rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: 0.6s;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        margin-left: 10px;
+        border: 2px solid var(--hover-color);
+        box-shadow: 0 0 0.9rem #12f7ff;
+    }
+
+        .buy-btn a:hover {
+            color: var(--bg-color);
+        }
+
+        .buy-btn a::before {
+            content: "";
+            display: flex;
+            width: 0;
+            height: 100%;
+            background: var(--bg-color);
+            transition: 0.4s;
+            position: absolute;
+            z-index: 1;
+            color: var(--bg-color);
+        }
+
+        .buy-btn a:hover {
+            background: var(--hover-color);
+        }
+
+            .buy-btn a:hover::before {
+                width: 0;
+            }
+.buy-btn:hover, .buy-btn:focus, .buy-btn:active, .buy-btn:visited{
+    transition-timing-function:cubic-bezier(0,6,4,0,3,0,8);
+    animation:animate 0.5s 1;
+}
+@keyframes animate{
+    0%, 100%{
+        transform:scale(1.1);
+    }
+    25% {
+        transform: scale(0.9, 1.1);
+    }
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+    75% {
+        transform: scale(0.95, 1.05);
+    }
+}
+.content a:hover
+{
+    text-decoration: none;
+    color: var(--hover-color);
+}
