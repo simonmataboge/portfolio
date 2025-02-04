@@ -1,0 +1,251 @@
+.logo
+{
+    float: right;margin-right: 100px;margin-top: -100px;
+}
+.sidepanel
+{
+    background: linear-gradient(to top right,black,goldenrod,black);height: 1200px;width: 200px;margin-top: 100px;
+}
+.sidepanel h1
+{
+     writing-mode:vertical-rl;
+    text-orientation:downup;;color: white;padding: px;font-size: 100px;font-family:serif;font-weight: bolder;     text-transform:uppercase;
+    text-shadow: 5px 5px #000000;margin-top: 400px;height: 1000px;"
+}
+.main img
+{
+    margin-left: 300px;margin-top: -1000px;border-radius: 100%;padding: 30px;border-color: black;border-style: solid;box-shadow:5px 15px #000000; 
+}
+.contacts
+{
+    margin-left: 300px;
+}
+
+
+.contact-box
+{
+    display: inline-block;
+
+    margin-left: 0px;
+    padding: 20px;
+    width: 200px;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 0px;
+
+}
+@media screen and (max-width:1000px ){
+	.contact-box{
+		width: 140px;
+
+	}
+}
+
+.contacts .fa
+{
+    font-size: 60px;
+    background: linear-gradient(to top right,black,goldenrod,black);
+    border-radius: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    color: white;
+    
+}
+
+
+/*-----content------*/
+.col-25
+{
+  float: left;
+  width: 5%;
+  margin-top: 20px;
+  background-color: silver;
+  height: 40px;
+  padding:10px;
+    font-size: 16px;
+}
+@media screen and (max-width:1000px ){
+	.col-25{
+		font-size: 10px;
+	}
+}
+.col-75
+{
+  margin-right: 170px;
+    float: right;
+  width: 70%;
+  margin-top: 20px;
+   background: linear-gradient(to top right,black,goldenrod,black);
+  height: 40px;
+  padding:10px;
+    color: white;
+}
+@media screen and (max-width:1000px ){
+	.col-75{
+		width: 120px;
+	}
+}
+/*---title----*/
+.title
+{
+    margin-left: 200px;
+    margin-top: 1000px;
+    width: 800px;
+}
+.titles
+{
+    background: linear-gradient(to top right,black,goldenrod,black);
+    height: 400px;
+    margin-top: 300px;
+    
+}
+.titles img
+{
+    background-image:url(et-lion1.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: full image;
+    height: 320px;
+    width: 80%;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.title h1
+{
+    margin-top: 100px;
+}
+.title .fa
+{
+    font-size: 60px;
+    background: linear-gradient(to top right,black,goldenrod,black);
+    border-radius: 10%;
+    padding: 20px;
+    margin-top: 50px;
+    color: white;
+    
+}
+.title-box
+{
+    display: inline-block;
+
+    margin-left: 0px;
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 0px;
+}
+dt
+{
+	background: linear-gradient(to top right,black,goldenrod,black);
+	padding:10px;
+	width:400px;
+    font-size: 12px;
+	margin-top:5px;
+	font-weight:lighter;
+    color: white;
+}
+
+
+.right-panel
+{
+    margin-left: 650px;
+    width: 340px;
+    background: linear-gradient(to top right,black,goldenrod,black);
+    margin-top: -600px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.title-box img
+{
+	width:100px;
+	height:100px;
+	margin-left:0px;
+    
+}
+
+.title-img
+{
+    margin-left: -100px;
+}
+.title-img .title-box
+{
+    display: inline-block;
+
+    margin-left: 0px;
+    padding: 20px;
+    width: 200px;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 0px;
+}
+.title-img p
+{
+    font-size: 14px;
+}
+/*----testimonials-------*/
+.testimonials img
+{
+    width: 200px;
+    height: 150px;
+    margin-top: 150px;
+    
+}
+.testimonials blockquote
+{
+    margin-left: 220px;
+    margin-top: -100px;
+    width: 500px;
+}
+.testimonials .col-125
+{
+    margin-left: 220px;
+    margin-top: -100px;
+    width: 500px;
+    color: lime;
+    font-family:cursive;
+}
+/*-----contacts-----*/
+.logo-contact
+{
+    float: left;margin-left: px;margin-top:100px;
+}
+.bottom-panel
+{
+    margin-left: 450px;
+    width: 340px;
+    background: linear-gradient(to top right,black,goldenrod,black);
+    margin-top: -10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.logo-contact .fa, .bottom-panel .fa
+{
+    font-size: 30px;
+    border-radius: 10%;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    color: white;
+    background-color: transparent;
+    
+}
+.bottom-panel img
+{
+   width: 200px;
+    margin-left: 50px;
+}
+.summary
+{
+    margin-left: -70px;
+    margin-top: -400px;
+    width: 500px;
+}
