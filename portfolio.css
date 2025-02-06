@@ -492,7 +492,11 @@ social-icons a:hover::before {
             height: 1400px;
         }
     }
-
+    @media screen and (max-width:400px ) {
+        #portfolio {
+            height: 1500px;
+        }
+    }
     .portfolio {
         margin-left: 60px;
     }
@@ -688,7 +692,11 @@ social-icons a:hover::before {
     }
 
 
-
+    @media screen and (max-width:400px ) {
+        #profile {
+            height: 700px;
+        }
+    }
 
 
 
