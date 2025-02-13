@@ -777,7 +777,7 @@ width:490px;
 	width: 0;
 }
 
-.single-service p {
+.single-service a {
 	margin-left: 0px;
 	width: 190px;
 	color: var(--hover-color);
@@ -785,13 +785,13 @@ width:490px;
 	float: left;
 }
 @media screen and (max-width:1000px ) {
-	.single-service p {
+	.single-service a {
 		text-align:center;
 		margin-left:10px;
 		width:350px;
 	}
 }
-.single-service p:hover {
+.single-service a:hover {
 	text-shadow: 0 0 10px rgba(18,247,255,0.6), 0 0 20px rgba(118,247,255,0.6), 0 0 30px rgba(18,247,255,0.6), 0 0 40px rgba(18,247,255,0.6), 0 0 70px rgba(18,247,255,0.6), 0 0 80px rgba(18,247,255,0.6), 0 0 100px rgba(18,247,255,0.6), 0 0 150px rgba(18,247,255,0.6);
 }
 
