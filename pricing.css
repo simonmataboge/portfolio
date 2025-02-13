@@ -1,0 +1,219 @@
+
+:root {
+    --text-color: black;
+    --hover-color: #12f7ff;
+    --bg-color: #250821;
+    --secon-bg-color: #292e33;
+    --big-font: #2.5rem;
+    --norma-font: 2.5rem;
+    --neon-box-shadow: 0 0.5rem #12f7ff;
+    --h2-font: 3rem;
+    --font-neon-text-shadow: 0 0 10px rgba(18,247,255,0.3), 0 0 20px rgba(18,247,255,0.3), 0 0 30px rgba(18,247,255,0.3), 0 0 40px rgba(18,247,255,0.3), 0 0 70px rgba(18,247,255,0.3), 0 0 80px rgba(18,247,255,0.3), 0 0 100px rgba(18,247,255,0.3), 0 0 150px rgba(18,247,255,0.3),
+}
+
+
+.buy-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+    .buy-btn a {
+        display: flex;
+        width: 150px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        color: var(--hover-color);
+        font-size: 1rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: 0.6s;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        margin-left: 10px;
+        border: 2px solid var(--hover-color);
+        box-shadow: 0 0 0.9rem #12f7ff;
+    }
+
+        .buy-btn a:hover {
+            color: var(--bg-color);
+        }
+
+        .buy-btn a::before {
+            content: "";
+            display: flex;
+            width: 0;
+            height: 100%;
+            background: var(--bg-color);
+            transition: 0.4s;
+            position: absolute;
+            z-index: 1;
+            color: var(--bg-color);
+        }
+
+        .buy-btn a:hover {
+            background: var(--hover-color);
+        }
+
+            .buy-btn a:hover::before {
+                width: 0;
+            }
+.buy-btn:hover, .buy-btn:focus, .buy-btn:active, .buy-btn:visited{
+    transition-timing-function:cubic-bezier(0,6,4,0,3,0,8);
+    animation:animate 0.5s 1;
+}
+@keyframes animate{
+    0%, 100%{
+        transform:scale(1.1);
+    }
+    25% {
+        transform: scale(0.9, 1.1);
+    }
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+    75% {
+        transform: scale(0.95, 1.05);
+    }
+}
+
+.containers
+{
+    margin-left: 140px;
+    margin-top: 50px;
+}
+ h6
+{
+	text-align:center;
+	
+	font-size:20px;
+	height: 50px;
+	padding: 0px;
+}
+
+ul li
+{
+   
+	margin-left: -30px;
+	width:150px;
+    border-bottom-color: #12f7ff;
+    border-bottom-width:medium;
+    border-bottom-style: solid;
+    color: #12f7ff;
+    font-size: 14px;
+    padding: 8px;
+    list-style: none;
+}
+ul
+{
+   
+}
+.website
+{
+	background-color: var(--bg-color);
+	width:180px;
+	height:530px;
+	margin-top:10px;
+	text-align:10px;
+    display:inline-block;
+    border: 2px solid var(--hover-color);
+    
+}
+.personal
+{
+   background-color:silver; 
+    text-align:center;
+	
+	font-size:20px;
+	height: 60px;
+	padding: 10px;
+   
+}
+.advertising
+{
+   background-color:gold; 
+    text-align:center;
+	
+	font-size:20px;
+	height: 60px;
+	padding: 10px;
+}
+.enterprenuer
+{
+   background-color:darkgrey; 
+    text-align:center;
+	
+	font-size:20px;
+	height: 60px;
+	padding: 10px;
+}
+.left
+{
+    width: 300px;
+    margin-left: 650px;
+    margin-top: -640px;
+    font-size: 10px;
+}
+@media screen and (max-width:1000px ){
+	.left{
+		margin-left:210px;
+        width: 260px;
+        
+	}
+}
+.left h6
+{
+    background-color: var(--bg-color);
+    text-align:center;
+    height: 30px;color: white;
+}
+@media screen and (max-width:1000px ){
+	.left h6{
+        width: 260px;;
+        
+	}
+}
+.left ul
+{
+	color: black;
+	font-size: 16px;
+}
+
+em
+{
+    
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+
+p
+{
+	margin-left:10px;
+  
+}
+.fa-check-circle
+{
+    color: #12f7ff;
+    font-size:20px;
+}
+.fa-times-circle
+{
+    color: white;
+    font-size:30px;
+}
+h4 .fa
+{
+	color:black;
+	font-size:30px;
+}
+di
+{
+    font-size: 20px;
+    color: goldenrod;
+}
