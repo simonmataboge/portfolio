@@ -1,3 +1,15 @@
+
+
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
 :root {
     --text-color: black;
     --hover-color: #12f7ff;
@@ -9,16 +21,26 @@
     --h2-font: 3rem;
     --font-neon-text-shadow: 0 0 10px rgba(18,247,255,0.3), 0 0 20px rgba(18,247,255,0.3), 0 0 30px rgba(18,247,255,0.3), 0 0 40px rgba(18,247,255,0.3), 0 0 70px rgba(18,247,255,0.3), 0 0 80px rgba(18,247,255,0.3), 0 0 100px rgba(18,247,255,0.3), 0 0 150px rgba(18,247,255,0.3),
 }
+
+
+body{
+    font-family: sans-serif;
+    color: var(--text-color);
+}
+
+
+
+
 .container{
     margin-top: 50px;
-	width:100%;
 }
 .content
-{	width:800px;
+{	width:550px;
 	box-shadow:0 0 10px 0 #ccc;
-	padding: 10px;
-    margin-left: 100px;
+	padding: 30px;
+    margin-left: 50px;
     margin-top: 50px;
+    border-radius: 10px;
 }
 @media screen and (max-width:1000px ){
 	.content{
@@ -27,22 +49,14 @@
 	}
 }
 h1 {
-    text-align: center;
-    	background-color: var(--bg-color);
-	color: #12f7ff;
-	border: 2px solid var(--hover-color);
-	box-shadow: 0 0 1rem #12f7ff;
+    text-align: ;
+	color: black;
+    width:600px;
 }
 @media screen and (max-width:1000px ){
 	h1{
        
         width: 100%;
-	}
-}
-@media screen and (max-width:400px ){
-	h1{
-       
-        width: 470px;
 	}
 }
 h2:hover{
@@ -56,7 +70,8 @@ h2:hover{
     width: 250px;
     height: 40px;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 50px;
+    padding-bottom: 50px;
 }
 @media screen and (max-width:1000px ){
 	.buy-btn{
@@ -128,4 +143,89 @@ h2:hover{
 {
     text-decoration: none;
     color: var(--hover-color);
+}
+
+
+
+
+
+
+.advert
+{
+    margin-left: 610px;
+    border-radius: 10px;
+    width: 380px;
+    position:fixed;
+    margin-top: 10px;
+    
+    
+}
+.advert-box p
+{
+    width: 380px;
+    padding: 20px;
+}
+img
+{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 50px;
+}
+.advert a, .client-advert a
+{
+    color: white;text-align: center;
+    
+}
+.advert a:hover, .client-advert a:hover
+{
+    text-decoration: none;
+    color: var( --bg-color);
+}
+.advert-box .buy-btn, .client-advert .buy-btn
+{
+   background: var(--hover-color);
+    padding: 5px;
+    margin-left: 20px;
+    width: 350px;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+.client-advert
+{
+     margin-left: 610px;
+    border-radius: 10px;
+    width: 380px;
+    position:fixed;
+    margin-top: 10px;   
+}
+.client-panel img
+{
+   width: 120px;
+    height: 120px;
+    margin-left: 0px;
+}
+
+.client-advert h1
+{
+    color: red;
+    margin-left: 80px;
+}
+.client-advert h2
+{
+    margin-top: 50px;
+    margin-left: 90px;
+    color: blue;
+}
+.client-advert p
+{
+    margin-left: 20px;
 }
