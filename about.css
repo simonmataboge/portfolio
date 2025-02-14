@@ -1371,6 +1371,14 @@ social-icons a:hover::before {
     margin-top: 100px;
     height: 400px;
 }
+@media screen and (max-width:1000px ) {
+	.containers {
+	width: 490px;
+        margin-left: 60px;
+        margin-top: 50px;
+        height: 700px;
+	}
+}
  h6
 {
 	text-align:center;
