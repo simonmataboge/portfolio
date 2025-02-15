@@ -1401,10 +1401,7 @@ social-icons a:hover::before {
     padding: 8px;
     list-style: none;
 }
-ul
-{
-   
-}
+
 .website
 {
 	background-color: var(--bg-color);
@@ -1488,8 +1485,4 @@ h4 .fa
 	color:black;
 	font-size:30px;
 }
-di
-{
-    font-size: 20px;
-    color: goldenrod;
-}
+
