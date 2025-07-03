@@ -772,7 +772,7 @@ h6 {
 	}
 }
 @media screen and (max-width:400px ) {
-	.graphic-box {
+	graphic-box {
 		margin-top: 30px;
 		margin-left: 60px;
 		width:370px;
