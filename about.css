@@ -277,7 +277,7 @@ span {
 }
 @media screen and (max-width:1000px ) {
    .home-content {
-        width: 400px;
+        width: 440px;
 	   margin-left: 0px;
     }
 }
@@ -402,7 +402,7 @@ span {
 @media screen and (max-width:1000px ) {
     .img-box img {
         height: 300px;
-        width: 400px;
+        width: 440px;
         margin-left: 0px;
 
     }
@@ -528,6 +528,7 @@ skills {
 @media screen and (max-width:1000px ) {
     .skills {
         margin-left: 0px;
+	    width:440px;
     }
 }
 
