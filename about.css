@@ -274,9 +274,10 @@ span {
     width: 400px;
     display: inline-block;
 }
-@media screen and (max-width:400px ) {
+@media screen and (max-width:1000px ) {
    .home-content {
-        width: 300px;
+        width: 400px;
+	   margin-left: 20px;
     }
 }
     .home-content h1 {
@@ -401,7 +402,7 @@ span {
     .img-box img {
         height: 300px;
         width: 400px;
-        margin-left: 20px;
+        margin-left: 0px;
 
     }
 }
