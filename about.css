@@ -661,6 +661,11 @@ skills {
         margin-left: 0px;
     }
 }
+.about-more-skills h6
+{
+	float:left;
+
+}
 .about-more-skills p
 {
 	padding: 10px;
