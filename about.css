@@ -663,7 +663,7 @@ skills {
 }
 .about-more-skills h6
 {
-	float:left;
+	margin-left: 0px;
 
 }
 .about-more-skills p
