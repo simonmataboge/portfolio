@@ -494,7 +494,7 @@ social-icons a:hover::before {
 }
 #portfolio2{
 	margin-top: 100px;
-	height: 1000px;
+	height: 1200px;
 }
 @media screen and (max-width:1000px ) {
 	#portfolio2{
@@ -535,7 +535,7 @@ social-icons a:hover::before {
 	}
 }
 @media screen and (max-width:400px ) {
-	.portfolio-box {
+	portfolio-box {
 		margin-top: 30px;
 		margin-left: 10px;
 		width:370px;
