@@ -286,6 +286,7 @@ span {
     }
     .home-content h6 {
         float:left;
+	    color:red;
     }
 .change-text {
     font-size: 1.5em;
