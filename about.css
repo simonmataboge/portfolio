@@ -272,7 +272,6 @@ span {
 
 .home-content {
     width: 400px;
-	baackground-color:red;
     display: inline-block;
 }
 @media screen and (max-width:1000px ) {
@@ -650,7 +649,7 @@ skills {
 }
 .about-more-skills {
     width: 440px;
-    margin-top: 50px;
+    margin-top: 20px;
     display: inline-block;
     margin-left: 0px;
     padding: 20px;
