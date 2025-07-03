@@ -292,14 +292,10 @@ span {
 
     .change-text h6 {
         display: inline-flex;
-        margin: 0;
+        margin-left: 0;
         vertical-align: top;
     }
-@media screen and (max-width:1000px ) {
-    .change-text h6 {
-        margin-left: -10px;
-    }
-}
+
         .change-text h6 .word {
             position: absolute;
             display: flex;
