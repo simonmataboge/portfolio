@@ -294,6 +294,7 @@ span {
         display: inline-flex;
         margin-left: 0;
         vertical-align: top;
+	    float:left;
     }
 
         .change-text h6 .word {
