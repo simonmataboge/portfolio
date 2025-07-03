@@ -1021,13 +1021,13 @@ social-icons a:hover::before {
 
 @media screen and (max-width:1000px ) {
     #about-skills {
-        height: 1300px;
+        height: 1500px;
     }
 }
 @media screen and (max-width:400px ) {
     #about-skills {
         width: 490px;
-        height: 1300px;
+        height: 1600px;
     }
 }
 .about-skills {
@@ -1237,13 +1237,13 @@ social-icons a:hover::before {
 @media screen and (max-width:1000px ) {
     #about-more-skills {
         margin-left: 10px;
-        height: 1200px;
+        height: 1400px;
     }
 }
 @media screen and (max-width:400px ) {
     #about-more-skills {
         margin-left: 10px;
-        height: 1200px;
+        height: 1500px;
     }
 }
 
