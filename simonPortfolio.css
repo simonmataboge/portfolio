@@ -498,7 +498,7 @@ social-icons a:hover::before {
 }
 @media screen and (max-width:1000px ) {
 	#portfolio2{
-		height:1800px;
+		height:2000px;
         margin-top: 10px;
 	}
 }
