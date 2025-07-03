@@ -396,7 +396,7 @@ span {
         width: 250px;
         height: 250px;
         margin-top: 40px;
-        margin-left: 50px;
+        margin-left: 0px;
     }
 
 @media screen and (max-width:1000px ) {
