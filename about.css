@@ -1021,13 +1021,13 @@ social-icons a:hover::before {
 
 @media screen and (max-width:1000px ) {
     #about-skills {
-        height: 1500px;
+        height: 1400px;
     }
 }
 @media screen and (max-width:400px ) {
     #about-skills {
         width: 490px;
-        height: 1600px;
+        height: 1400px;
     }
 }
 .about-skills {
@@ -1237,13 +1237,13 @@ social-icons a:hover::before {
 @media screen and (max-width:1000px ) {
     #about-more-skills {
         margin-left: 10px;
-        height: 1400px;
+        height: 1300px;
     }
 }
 @media screen and (max-width:400px ) {
     #about-more-skills {
         margin-left: 10px;
-        height: 1500px;
+        height: 1300px;
     }
 }
 
@@ -1264,11 +1264,12 @@ social-icons a:hover::before {
 @media screen and (max-width:1000px ) {
     #about-business  {
         margin-left: 10px;
-        height: 1000px;
+        height: 1200px;
+	    margin-top: 40px;
     }
 }
 @media screen and (max-width:400px ) {
-    #about-business  {
+    about-business  {
         margin-left: 10px;
         height: 1000px;
     }
@@ -1290,14 +1291,14 @@ social-icons a:hover::before {
 
 @media screen and (max-width:1000px ) {
     #work-skills {
-        height: 900px;
+        height: 1000px;
 		
     }
 }
 @media screen and (max-width:400px ) {
     #work-skills {
         width: 490px;
-        height: 900px;
+        height: 1000px;
     }
 }
 .work-skills
