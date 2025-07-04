@@ -1387,10 +1387,9 @@ social-icons a:hover::before {
 }
  h6
 {
-	text-align:center;
+	text-align:;
 	
 	font-size:20px;
-	height: 50px;
 	padding: 0px;
 }
 
