@@ -1292,7 +1292,7 @@ border: 2px solid var(--hover-color);
 		margin-left:30px;
 	}
 }
-.contact-progress {
+.contact-progress, input, textarea {
 	width: 395px;
 	padding: 10px;
 	color: var(--hover-color);
@@ -1338,6 +1338,81 @@ border: 2px solid var(--hover-color);
 	font-weight: 100;
 }
 
+.col-lg {
+    padding: 10px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width:1000px ) {
+    .col-lg {
+        width: 480px;
+        height: 400px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:400px ) {
+    .col-lg {
+        width: 480px;
+        height: 400px;
+        margin-top: 0px;
+    }
+}
+
+ input {
+    margin-left: 0px;
+    height: 40px;
+    width: 340px;
+    display: inline-block;
+   
+    
+}
+
+form
+{
+    width: 400px;
+    margin-left: 0px;
+    margin-top: 30px;
+
+}
+@media screen and (max-width:1000px ) {
+    form{
+        margin-top: -20px;
+        width: 460px;
+        margin-left: 30px;
+    }
+}
+form ul {
+    display: inline-block;
+    margin-left: 10px;
+    color: var(--hover-color);
+}
+
+.col-75 {
+    margin-top: -10px;
+    margin-left: -50px;
+    font-size: 12px;
+    width: 340px;
+}
+.col-lg p
+{
+    margin-left: -50px;
+    margin-top: -10px;
+}
+
+
+ 
+
+ textarea {
+    width: 340px;
+    height: 100px;
+}
+
+@media screen and (max-width:1000px ) {
+    textarea {
+        width: 345px;
+    }
+}
 
 
 /*--footer--*/
@@ -1475,4 +1550,5 @@ border: 2px solid var(--hover-color);
 	}
 }
         
+
 
