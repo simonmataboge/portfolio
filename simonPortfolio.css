@@ -494,11 +494,11 @@ social-icons a:hover::before {
 }
 #portfolio2{
 	margin-top: 100px;
-	height: 1300px;
+	height: 1500px;
 }
 @media screen and (max-width:1000px ) {
 	#portfolio2{
-		height:2000px;
+		height:2200px;
         margin-top: 10px;
 	}
 }
@@ -1032,3 +1032,4 @@ h6 {
         transform: scale(0.95, 1.05);
     }
 }
+
