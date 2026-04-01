@@ -30,7 +30,7 @@
 }
 @media screen and (max-width:1000px ){
 	.services {
-		width: 490px;
+		width: 470px;
       margin-left: 10px;
 	}
 }
@@ -267,7 +267,7 @@ img
 }
 @media screen and (max-width:1000px ){
 	.left-panel{
-		width: 245px;
+		width: 225px;
 	}
 }
 @media screen and (max-width:1000px ){
@@ -338,12 +338,11 @@ img
     margin-left: 10px;
     padding: 10px;
    margin-top: 0px;
-    height: 400px;
 }
 #related .content .box
 {
     height: 300px;
-    width: 230px;
+    width: 210px;
     margin-top: 20px;
     display: inline-block;
     margin-left: 10px; 
@@ -358,13 +357,12 @@ img
 }
 #related .content
 {
-    height: 400px;
     margin-top: -10px;
     margin-left: 0px;
 }
 #related .content img
 {
-    width: 228px;
+    width: 208px;
     height:300px;
     margin-left: 0px;
     margin-top: 0px;
