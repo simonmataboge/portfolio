@@ -145,15 +145,7 @@ img
    
 	}
 }
-@media screen and (max-width:400px ){
-	img{
-		height:300px;
-		width: 200px;
-        	margin-left: 10px;
-		margin-top: 60px;
-   
-	}
-}
+
 
 .prev, .next {
   cursor: pointer;
@@ -193,20 +185,7 @@ img
    
 	}
 }
-@media screen and (max-width:400px ){
-	.next{
-		margin-left: 100px;
-        
-   
-	}
-}
-@media screen and (max-width:400px ){
-    .prev{
-		margin-left: -140px;
-        
-   
-	}
-}
+
 .prev:hover, .next:hover {
   color: #12f7ff;
 }
