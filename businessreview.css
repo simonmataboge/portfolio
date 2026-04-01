@@ -28,6 +28,12 @@
     border: 2px solid var(--hover-color);
     box-shadow: 0 0 1rem #12f7ff;
 }
+@media screen and (max-width:1000px ){
+	.services {
+		width: 470px;
+      margin-left: 10px;
+	}
+}
 #services p
 {
     font-family:Embassy BT;
@@ -49,11 +55,7 @@
 		font-size: 16px;width: 300px;
 	}
 }
-@media screen and (max-width:400px ){
-	.services h3{
-		font-size: 16px;width: 340px;
-	}
-}
+
 #services .headerlink a
 {
     color: #cccccc;
@@ -179,14 +181,14 @@ img
 }
 @media screen and (max-width:1000px ){
 	.next{
-		margin-left: 200px;
+		margin-left: 180px;
         
    
 	}
 }
 @media screen and (max-width:1000px ){
 	.prev{
-		margin-left: -250px;
+		margin-left: -230px;
         
    
 	}
@@ -242,6 +244,13 @@ img
     margin-left: 660px;
     margin-top: -550px;
 }
+@media screen and (max-width:1000px ){
+	#left{
+		margin-left: 20px;
+      margin-top: -30px;
+      width: 480px;
+	}
+}
 .left-panel
 {
 
@@ -253,6 +262,18 @@ img
     width: 300px;
     padding: 20px;
     text-align: ;
+    display: inline-block;
+    font-size: 14px;
+}
+@media screen and (max-width:1000px ){
+	.left-panel{
+		width: 225px;
+	}
+}
+@media screen and (max-width:1000px ){
+	.left-panel h5, .left-panel h6, .left-panel ul li{
+		display: none;
+	}
 }
 .left-panel ul li
 {
@@ -271,6 +292,7 @@ img
     text-align: center;
     color:white;
 }
+
 #left h4
 {
     color:#12f7ff;
@@ -279,16 +301,18 @@ img
 {
     margin-left: 10px;
     padding: 10px;
-    height: 200px;
 }
 .content
 {
     margin-top: 80px;
     margin-left: -10px;
-    height: 150px;
       overflow: hidden;
 }
-
+@media screen and (max-width:1000px ){
+	.content{
+		margin-top: 20px;
+	}
+}
 .content .box
 {
     height: 100px;
