@@ -519,8 +519,8 @@ social-icons a:hover::before {
 }
 
 .portfolio-box {
-	width: 270px;
-	height: 160px;
+	width: 160px;
+	height: 270px;
 	display: inline-block;
 	border: 2px solid var(--hover-color);
 	box-shadow: 0 0 0.9rem #12f7ff;
