@@ -544,8 +544,8 @@ social-icons a:hover::before {
 .portfolio-img img {
 	height: 200px;
 	width: 200px;
-	padding: 10px;
-	margin-left: 10px;
+	padding: 0px;
+	margin-left: 0px;
 }
 #portfolio img:hover, #portfolio img:focus, #portfolio img:active, #portfolio img:visited{
     transition-timing-function:cubic-bezier(0,6,4,0,3,0,8);
