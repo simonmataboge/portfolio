@@ -519,7 +519,7 @@ social-icons a:hover::before {
 }
 
 .portfolio-box {
-	width: 160px;
+	width: 200px;
 	height: 270px;
 	display: inline-block;
 	border: 2px solid var(--hover-color);
@@ -542,8 +542,8 @@ social-icons a:hover::before {
 	}
 }
 .portfolio-img img {
-	height: 140px;
-	width: 180px;
+	height: 200px;
+	width: 200px;
 	padding: 10px;
 	margin-left: 10px;
 }
