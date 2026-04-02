@@ -542,7 +542,7 @@ social-icons a:hover::before {
 	}
 }
 .portfolio-img img {
-	height: 250px;
+	height: 270px;
 	width: 195px;
 	padding: 0px;
 	margin-left: 0px;
@@ -567,7 +567,7 @@ social-icons a:hover::before {
 }
 @media screen and (max-width:1000px ) {
 	.portfolio-img img {
-		margin-left: 10px;
+		margin-left: 0px;
 	}
 }
 
