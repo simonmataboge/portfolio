@@ -1,0 +1,338 @@
+.body
+{
+    font-family: latin;
+    background-color: #ccc;
+
+
+
+}
+.menu
+{
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    margin-top: -180px;
+    margin-left: 500px;
+}
+@media screen and (max-width:1000px ){
+	.menu{
+		display: none !important;
+	}
+}
+.menu a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+.buy-btn
+{
+    background-color: brown;
+    padding: 10px;
+    color: lime;
+    border-radius: 5px;
+}
+
+.sidenav
+{
+    margin-top: -135px;
+    padding: 30px;
+    background-color: brown;
+    width: 100%;
+    font-family: lato;
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-left: 80px;
+    color: white;
+
+
+}
+.sidepanel a:hover
+{
+    text-decoration: none;
+}
+@media screen and (max-width:1000px ){
+	.sidenav{
+		margin-top:-280px;
+	}
+}
+.navmenu
+{
+    margin-left: 540px;
+    margin-top: -30px;
+}
+@media screen and (max-width:1000px ){
+	.navmenu{
+		margin-left:140px;
+	}
+}
+
+.sidenav a:hover
+{
+  background-color:goldenrod;
+  color: white;
+  padding: 10px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1000px ){
+	.sidenav{
+		padding:10px 10px;
+	}
+}
+ .sidenav a
+    {
+        margin-left: 20px;
+        color: lime;
+        
+    }
+    @media screen and (max-width:1000px ){
+	.sidenav a{
+		margin-left:10px;
+	}
+}
+#about
+{
+    margin-top: 350px;
+}
+@media screen and (max-width:1000px ){
+	about{
+		margin-left:-380px;
+	}
+}
+.about
+{
+    padding: 10px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: -160px;
+    font-family: latin;
+    background-color: ;
+    position:inherit;
+
+
+
+
+}
+@media screen and (max-width:1000px ){
+	.about{
+		margin-left:10px;
+		width:440px;
+		margin-top:-50px;
+	}
+}
+.right h3
+{
+    float: ;
+    margin-top: -40px;
+    border-radius: 40px;
+    background-color: ;
+    width: 400px;
+    color: ;
+    font-family: latin;
+    text-align: center;
+    margin-left: -100px;
+}
+.right
+{
+    float: ;
+    margin-top: 60px;
+    border-radius: 5px;
+    background-color:brown;
+    width: 250px;
+    margin-left: 80px;
+    position: fixed;
+}
+@media screen and (max-width:1000px ){
+	.right{
+		margin-left:100px;
+		margin-top:-170px;
+	}
+}
+img
+{
+    border-radius: 5px;
+    width:100px;margin-left: 10px; height:100px
+}
+.right p
+{
+   margin-left: 130px;
+    margin-top: -100px;
+    color: white;
+    font-size: 14px;
+}
+.sidenav img
+{
+	width:70px;
+	height:40px;
+	margin-top:-10px;
+	margin-left:0px;
+    float:left;
+}
+@media screen and (max-width:1000px ){
+	.sidenav img {
+		margin-left:-80px;
+	}
+}
+.sidepanel
+{
+
+  position: fixed;
+  z-index: 1;
+    width: 140px;
+  height: 250px;
+  top: 180px;
+  left: 40;
+  background-color: brown;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: lime;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: white;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn
+{
+  font-size: 20px;
+  cursor: pointer;
+  background-color:;
+  color: goldenrod;
+
+  border: none;
+  position:;
+  margin-top:50px;
+
+ }
+.openbtn:hover
+{
+  background-color: lime;
+}
+@media screen and (max-width:1000px ){
+	.openbtn{
+		margin-left:-10px;
+	}
+}
+h2
+{
+    margin-top:50px;
+    padding: 30px;
+    background-color: brown;
+    width: 100%;
+    font-family: latin;
+    color: lime;
+    text-align: center;
+
+
+}
+
+.aboutauthor, #tree, #pix
+{
+    padding: 10px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: -10px;
+    font-family: latin;
+    background-color: ;
+    position:inherit;
+
+
+}
+@media screen and (max-width:1000px ){
+	.aboutauthor, #tree, #pix{
+		margin-left:0px;
+		width:440px;
+	}
+}
+.aboutauthor img
+{
+    width: 70px;
+    margin-left: 200px;
+    height: 70px;
+
+
+}
+
+.aboutright
+{
+    float: ;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color:;
+    width:px;
+    margin-left: 0px;
+}
+.aboutright img
+{
+    border-radius: 5px;
+    width:200px;margin-left: 0px; height:200px
+}
+.aboutright p
+{
+   margin-left: 240px;
+    margin-top: -200px;
+    color: black;
+    font-size: px;
+}
+/*--author---*/
+
+#tree img
+{
+    border-radius: 5px;
+    width:400px;margin-left: 70px; height:300px;margin-top: 50px;
+}
+#pix
+{
+    padding: 10px;
+    width: 670px;
+    margin-left: 330px;
+    margin-top: -10px;
+    font-family: latin;
+    background-color: ;
+    position:inherit;
+
+
+}
+#pix img
+{
+    border-radius: 5px;
+    width:120px;margin-left: 0px; height:140px;margin-top: 10px;
+}
+@media screen and (max-width:1000px ){
+	#pix {
+		margin-left:40px;
+		width:440px;
+	}
+}
+
+#footer
+{
+    background:brown;
+    color: white;
+    padding: 12px;
+    margin-top: 20px;
+}
+@media screen and (max-width:400px ){
+	#footer{
+        width: 480px;
+	}
+}
